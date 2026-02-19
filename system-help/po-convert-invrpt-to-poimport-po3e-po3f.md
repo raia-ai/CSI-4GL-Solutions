@@ -1,0 +1,28 @@
+---
+title: "Convert Inventory Report to PO Import Template"
+source: "madcap.md"
+tags: ["4GL", "Help Documentation"]
+version: "1.0"
+last_updated: "2026-02-19"
+short_description: "Convert Inventory Report to PO Import Template"
+long_description: "Help documentation for Convert Inventory Report to PO Import Template in the 4GL system."
+---
+
+
+Convert Inventory Report to PO Import Template
+==============================================
+
+If you are using the Material Requirements Planning report (IN7YR) or the Inventory Sales Usage Report (IN7ZI), you can enter order quantities and prices into the resulting spreadsheet, then run a utility to convert it into another Excel file formatted for import into a purchase order.
+
+1. Generate the report (IN7YR or IN7ZI).
+2. Open the Excel spreadsheet and populate the additional columns as required (width, length, BUM, BUM quantity, PUM, PUM quantity, price, delivery date, remark type, remark desc).
+3. For IN7YR: choose Purchasing » PO Entry/Maintenance » Convert MRP Rpt To Imp Temp [PO3F].  
+   For IN7ZI: choose Purchasing » PO Utilities » Convert Inv Usg Rpt To PO Imp Template [PO3F].
+4. Retrieve the Excel spreadsheet that you edited, then click Save.
+
+   Another Excel spreadsheet is created to match the PO import template format, with the data you entered in the first spreadsheet. The product code corresponds to the products from the first spreadsheet.
+
+   Any rows that did not have a value in the BUM Quantity column are excluded.
+5. The new spreadsheet can now be imported into a purchase order.
+
+---
