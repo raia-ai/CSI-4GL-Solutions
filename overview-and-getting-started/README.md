@@ -1,2 +1,0 @@
-# overview-and-getting-started
-
