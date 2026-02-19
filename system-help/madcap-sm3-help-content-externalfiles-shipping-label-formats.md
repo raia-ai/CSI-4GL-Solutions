@@ -1,0 +1,428 @@
+---
+title: "4GL Solutions - Shipping Label Formats"
+source: "madcap-sm3-help-content-externalfiles-shipping-label-formats.md"
+tags: ['SM3', 'System Help']
+version: "1.0"
+last_updated: "2026-02-19"
+short_description: "4GL Solutions - Shipping Label Formats"
+long_description: "This document provides detailed information about 4gl solutions - shipping label formats in the 4GL system. It includes procedures, reference information, and best practices for users and administrators."
+---
+# 4GL Solutions - Shipping Label Formats
+TECHNOLOGY FOR THE METAL INDUSTRY
+
+## 4 x 6" Formats
+
+### LRSHPLB3
+*   **Description**: 4 x 6 Shipping Label (Generic)
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer Shipto** | YARD WORKS, 150 INDUSTRIAL BOUL., EAST GRANBY, CT 08026 USA |
+    | **Supplier** | 4M Metal Supply (248) 528-3200 |
+    | **Customer PO** | 54321 |
+    | **Order No** | W000471 |
+    | **Barcode** | W000471 |
+    | **Timestamp** | 08/24/2021 13:56:21 |
+
+### LBSHPLB6
+*   **Description**: 4 x 6 Shipping Label (W/O only - Work Order only)
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer Shipto** | YARD WORKS, 150 INDUSTRIAL BOUL., EAST GRANBY, CT 08026 USA |
+    | **Supplier** | 4M Metal Supply (248) 528-3200 |
+    | **Product** | SRB 304 1" x 8' |
+    | **Heat** | DBD2 |
+    | **Qty** | 4 PC |
+    | **Pcs** | 4 |
+    | **Customer PO** | 54321 |
+    | **Wgt** | 86 LB |
+    | **Log** | E000724 |
+    | **Order No** | W000471 |
+    | **Barcode** | W000471 |
+    | **Timestamp** | 08/24/2021 16:40:05 |
+
+### LRSHPLB7
+*   **Description**: 3.7 - 4 x 6 Shipping Label (Delivery Note & Order line desc.)
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer Shipto** | YARD WORKS, 150 INDUSTRIAL BOUL., EAST GRANBY, CT 08026 USA |
+    | **Supplier** | 4M Metal Supply (248) 528-3200 |
+    | **Product** | SRB 304 1" x 8' |
+    | **Heat** | DBD2 |
+    | **Qty** | 4 PC |
+    | **Pcs** | 4 |
+    | **Customer PO** | 54321 |
+    | **Wgt** | 86 LB |
+    | **Log** | E000724 |
+    | **Order No** | 1000090 |
+    | **Barcode** | 1000090 |
+    | **Timestamp** | 08/24/2021 16:41:01 |
+
+### LRSHPLB9
+*   **Description**: 4 x 6 Shipping Label (Order line desc.)
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer Shipto** | YARD WORKS, 150 INDUSTRIAL BOUL., EAST GRANBY, CT 08026 USA |
+    | **Supplier** | 4M Metal Supply (248) 528-3200 |
+    | **Product** | SRB 304 1" x 8' |
+    | **Heat** | DBD2 |
+    | **Qty** | 4 PC |
+    | **Pcs** | 4 |
+    | **Customer PO** | 54321 |
+    | **Wgt** | 86 LB |
+    | **Log** | E000724 |
+    | **Order No** | W000471 |
+    | **Barcode** | W000471 |
+    | **Timestamp** | 08/24/2021 15:01:55 |
+
+### LRSHPBB
+*   **Description**: 4 x 6 Shipping Label (Indent Cus. Info, Dtl. Remark)
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer Information**| ***PICKUP***, 10 MY LANE, 2ND ADDRESS, 3RD ADDRESS, STOUFVILLE, ON L4A 3Z2 |
+    | **Ship Date** | 05/19/21 |
+    | **Ship Via** | YOUR TRUCK |
+    | **Product Information** | Heat, Location, Qty, Case, Log, Pcs (all fields blank) |
+    | **Order Information** | Order No: 1004289, Line, Tag, Customer PO (all fields blank) |
+    | **Warehouse** | WAREHOUSE 10 LONG NAME, 10 MY LANE STOUFVILLE, ON L4A3Z2 |
+    | **Timestamp** | 05/21/21 10:03:44 |
+
+### LRSHPLBI
+*   **Description**: 3.6L - 4 x 6 Shipping Label (Rmk Desc)
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer Information**| YARD WORKS, 150 INDUSTRIAL BOUL., EAST GRANBY, CT 08026 USA |
+    | **Ship Date** | 05/29/20 |
+    | **Ship Via** | COMMON CARRIER |
+    | **Product** | SRB 304 1" x 8' |
+    | **Heat** | DBD2 |
+    | **Case** | 02D8D2 |
+    | **Location** | A6 |
+    | **Log** | E000724 |
+    | **Qty** | 86 LB |
+    | **Pcs** | 4 |
+    | **Order No** | 1000090 |
+    | **Line** | 0002 |
+    | **Tag** | 1 Of 1 |
+    | **Customer PO** | 54321 |
+    | **Supplier** | 4M Metal Supply |
+    | **Timestamp** | 08/24/21 15:30:02 |
+
+### LRSHPLB5
+*   **Description**: 4 x 6 Shipping Label (B&W Logo)
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer Shipto** | YARD WORKS, 150 INDUSTRIAL BOUL., EAST GRANBY, CT 08026 USA |
+    | **Supplier** | LOGO, (248) 528-3200 |
+    | **Product** | SRB 304 1" x 8' |
+    | **Heat** | DBD2 |
+    | **Qty** | 4 PC |
+    | **Pcs** | 4 |
+    | **Customer PO** | 54321 |
+    | **Wgt** | 86 LB |
+    | **Log** | E000724 |
+    | **Order No** | 1000090 |
+    | **Barcode** | 1000090 |
+    | **Timestamp** | 08/18/2021 16:41:19 |
+
+### LRSHPLBA
+*   **Description**: 4 x 6 Shipping Label (no log info)
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer Shipto** | ACRON STEEL, 156 INDUSTRIAL BOUL., HANSON, MA 02341 USA |
+    | **Supplier** | 4M Metal Supply (248) 528-3200 |
+    | **Product** | SRB 304 1" x 1'6" |
+    | **Heat** | (blank) |
+    | **Qty** | (blank) |
+    | **Pcs** | (blank) |
+    | **Customer PO** | (blank) |
+    | **Wgt** | (blank) |
+    | **Log** | (blank) |
+    | **Order No** | W000746 |
+    | **Barcode** | W000746 |
+    | **Timestamp** | 08/24/2021 16:37:09 |
+
+### LRSHPLB4
+*   **Description**: 4 x 6 Handheld Built Shipping Label (only printable from WF22)
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer Information**| ACRON STEEL, 156 INDUSTRIAL BOUL., HANSON, MA 02341 USA |
+    | **PO** | (blank) |
+    | **Part** | SRB 304 1" x 1'6" |
+    | **Product Remark** | SAMPLE REMARK FOR PRODUCT CODE |
+    | **Qty** | 20 PC |
+    | **Pcs** | 20 |
+    | **Order No** | W000746 |
+    | **Requested Date** | 04/07/21 |
+    | **Ship Via** | COMMON CARRIER |
+    | **Supplier** | 4M Metal Supply, St. Louis, MO, (248) 528-3200 |
+    | **Timestamp** | 08/24/21 15:24:51 |
+
+### LRSHPLBL
+*   **Description**: 4 x 6 Shipping Label
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer Information**| YARD WORKS, 150 INDUSTRIAL BOUL., EAST GRANBY, CT 08026 USA |
+    | **Ship Date** | 05/29/20 |
+    | **Ship Via** | COMMON CARRIER |
+    | **Product** | SRB 304 1" x 8' |
+    | **Heat** | DBD2 |
+    | **Case** | 02D8D2 |
+    | **Location** | A6 |
+    | **Log** | E000724 |
+    | **Qty** | 86 LB |
+    | **Pcs** | 4 |
+    | **Order No** | 1000090 |
+    | **Line** | 0002 |
+    | **Tag** | 1 Of 1 |
+    | **Customer PO** | 54321 |
+    | **Supplier** | 4M Metal Supply, St. Louis, MO |
+    | **Timestamp** | 08/24/21 15:34:47 |
+
+### LRSHPLBM
+*   **Description**: 3.13 - 4 x 6 Shipping Label (Mill, Case)
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer Shipto** | STEEL SVETA, 88 KIROVA STREET, THORNHILL, ON L4J 8M3 CANADA |
+    | **Supplier** | WAREHOUSE 10 (905)444-6654 |
+    | **Mill** | TORONTO |
+    | **Product** | AFL 6061-T6 ASTM B-221 3/16" x 1-3/4" x 12' |
+    | **Heat** | H-78765 |
+    | **Case** | 312412321 |
+    | **Qty** | 2 PC |
+    | **Pcs** | 2 |
+    | **Customer PO** | (blank) |
+    | **Wgt** | 9 LB |
+    | **Log** | CA06649 |
+    | **Order No** | W008827 |
+    | **Barcode** | W008827 |
+    | **Timestamp** | 06/24/2022 14:07:50 |
+
+### LRPKGLB3
+*   **Description**: 3.13 - 4 x 6 Package Label (Order No)
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer Shipto** | STACY STEEL, 157 INDUSTRIAL BOUL., INDIAN ORCHARD, MA 01151 USA |
+    | **Supplier** | WAREHOUSE 10 (905)444-6654 |
+    | **Customer PO** | 312412 |
+    | **Package #** | Package 1 Of 1 |
+    | **Pack Wgt** | 13 LB |
+    | **No Pcs** | 1 |
+    | **Barcode (SSCC)** | s002521001 |
+    | **Order No** | W012523 |
+    | **Barcode** | W012523 |
+    | **Timestamp** | 06/24/2022 14:21:06 |
+
+### LRSHPLBO
+*   **Description**: 3.18 - 4 x 6 Shipping Label (Country of origin)
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer** | KENT METALS, 123 MAIN STREET, KENT, WA 98032 USA |
+    | **Supplier** | WAREHOUSE 10 (905)444-6654 |
+    | **Product** | SRB 1/4" x 144" A-276 304L |
+    | **Country** | CANADA |
+    | **Heat** | 99 |
+    | **Log** | LA11113 |
+    | **Qty** | 10 PC |
+    | **Pcs** | 10 |
+    | **Customer PO** | (blank) |
+    | **Wgt** | 20 LB |
+    | **Order No** | W013403 |
+    | **Barcode** | W013403 |
+    | **Timestamp** | 07/28/2023 14:51:58 |
+
+### LRSHPLBP
+*   **Description**: 3.18 - 4 x 6 Shipping Label (without heat #, weight, qty)
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer Shipto** | NEW SWAN, FJLD, MOUNT ALBERT, ON L0G 1M0 CANADA |
+    | **Supplier** | WAREHOUSE 10 (905)444-6654 |
+    | **Product** | ARB 3/4"OD x 8' B221 6061-T6 |
+    | **Customer PO** | (blank) |
+    | **Pcs** | 2 |
+    | **Order No** | W013610 |
+    | **Barcode** | W013610 |
+    | **Timestamp** | 08/15/2023 16:55:31 |
+
+## 5 x 3" Format
+
+### LRSHPLBF
+*   **Description**: 3.9 - 5 x 3 Shipping Label
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Supplier** | 4M Metal Supply PH: (248) 528-3200 |
+    | **Customer** | YARD WORKS, 150 INDUSTRIAL BOUL., EAST GRANBY, CT 08026 USA, PH: (111) 111-1111 |
+    | **Order Ref** | 54321 |
+    | **Order No** | 1000090 |
+    | **Qty** | 4 |
+    | **Log (TN)** | E000724 |
+    | **Product** | SRB 304 1" x 8' |
+    | **Heat** | DBD2 |
+    | **Barcode** | W000471E000724 |
+
+## 4 x 2" Formats
+
+### LRSHPLBH
+*   **Description**: 3.6L - 4 x 2 Customer Part Label
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Supplier** | OLYMPIA TUBES LTD |
+    | **Customer** | PLUMBTEL INC, MONTREAL, QC H3S 1A9 |
+    | **PO#** | 0001 |
+    | **WO#** | W000083 |
+    | **Via** | common carrier |
+    | **Product** | LTW 3" x .120 BLK A795 RG 21' |
+    | **Log** | L000834 |
+    | **Heat** | 4042102577.pdf |
+    | **Qty** | 11 |
+
+### LRSHPLBN
+*   **Description**: 3.16 - 4 x 2 Shipping Label with UDFs
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Supplier** | STEEL MANAGER 3 |
+    | **Order No** | W012849 |
+    | **Customer** | MARVEL |
+    | **Case** | BA00619 |
+    | **Route** | ROUTE ONE |
+    | **Product** | ART 1" x 1-1/2" x 125 wall x 12' B308 6063T52 |
+    | **Heat** | 823098928490238 |
+    | **J#** | 0389403912492310492310492 |
+    | **Qty** | 2 |
+    | **D#** | 0-9340924923049013293402 |
+    | **PO** | 23124123ANSMDT048239 |
+    | **P#** | ABC-12349832048231840213 |
+
+### LRSHPLBQ
+*   **Description**: 3.21 - 4 x 2 Shipping Label
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Supplier** | STEEL MANAGER 3 |
+    | **Product** | AFL 6061-T6 ASTM B-221 1/8" x 1" x 12' |
+    | **Order No** | W014461 |
+    | **Heat** | 123 |
+    | **Customer** | BLUE STEEL DISTRIBUTORS |
+    | **Req Date** | 06/19/24 |
+    | **Pcs** | 10 |
+    | **PO** | 2938421 |
+    | **LB** | 17.6 |
+    | **Log** | L000893 |
+    | **P#** | 12/D-11234ABC-0672 |
+
+### LRPKGLB4
+*   **Description**: 3.21 - 4 x 2 Package Label
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Supplier** | STEEL MANAGER 3 |
+    | **Req Date** | 04/03/24 |
+    | **Pcs** | 1 |
+    | **LB** | 7.9 |
+    | **Package** | 1 of 1 |
+    | **Customer** | AAA SERVICE |
+    | **SSCC Barcode** | s002588001 |
+    | **PO** | 50394732823423234124 |
+    | **Order No** | W014253 |
+    | **Barcode** | W014253 |
+
+## 4 x 1" Format
+
+### LRSHPLBK
+*   **Description**: 3.12 - Part #, heat and log
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Order No** | W000585 |
+    | **Product** | PLS 16 x 200 x 400 G250 |
+    | **Pattern** | S516102-09-5 |
+    | **HT (Heat)** | HEAT123 |
+    | **Log** | C103676 |
+    | **Barcode** | W000585C103676 |
+
+### LRSHPLBR
+*   **Description**: 3.23 - Part shipping label by production
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer** | SWAN, PIRR |
+    | **Order No** | W014952 |
+    | **Product** | CPL 44W 3/16" x 120" x 75" (Mill) |
+    | **Heat** | ha-5367-04 |
+    | **Qty** | 8 |
+
+## 7.5 x 13cm Formats
+
+### LRPKGLB1
+*   **Description**: 7.5 x 13cm Package Shipping Label
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Supplier** | WAREHOUSE 10 PH: (905)444-6654 |
+    | **Customer** | MARVEL, 153 INDUSTRIAL BOUL., FALL RIVER, MA 02720 USA, PH: (111)111-1111 |
+    | **Order Ref** | (blank) |
+    | **Order** | W011194, W011220 |
+    | **Pack Wgt** | 0.027 |
+    | **No Pcs** | 10 |
+    | **Route** | ROUTE ONE |
+    | **SSCC Barcode** | s002501 |
+
+### LRPKGLB2
+*   **Description**: 3.11 - 7.5 x 13cm Package Label - Large Cust. Name
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer** | MARVEL |
+    | **Supplier** | WAREHOUSE 10 |
+    | **Order** | W011194, W011220 |
+    | **Timestamp** | 03/08/21 |
+    | **Log** | LOG2005 |
+    | **Weight** | 0.027 |
+    | **Pieces** | 10 |
+    | **SSCC Barcode** | s002501 |
+
+### LRSHPLBJ
+*   **Description**: 3.11 - 7.5 x 13cm Shipping Label - Large Cust Name
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Customer** | YARD WORKS |
+    | **Supplier** | 4M Metal Supply |
+    | **Timestamp** | 08/21/18 |
+    | **Customer PO** | 54321 |
+    | **Order No (alt)** | 0600001 |
+    | **Product** | SRB 304 1" x 8' |
+    | **Heat** | DBD2 |
+    | **Log (TN)** | E000724 |
+    | **Qty** | 4 |
+    | **Order No** | 1000090 |
+    | **Barcode** | W000471E000724 |
+
+## Voucher Label – 1.5 x .5"
+
+### LRVOHLB1
+*   **Description**: Voucher Label
+*   **Sample Data**:
+    | Field | Value |
+    | :--- | :--- |
+    | **Voucher No** | 10V002447 |
+    | **Barcode** | 10V002447 |
+
+---
+*July 30, 2025*
