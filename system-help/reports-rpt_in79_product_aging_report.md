@@ -1,0 +1,35 @@
+---
+title: "Rpt In79 Product Aging Report"
+source: "madcap.md"
+tags: ["4GL", "REPORTS", "Help Documentation"]
+version: "1.0"
+last_updated: "2026-02-19"
+short_description: "Rpt In79 Product Aging Report - 4GL Help Documentation"
+long_description: "This topic provides detailed information about Rpt In79 Product Aging Report in the 4GL system. It includes step-by-step procedures, reference information, and best practices for using this functionality within the REPORTS module."
+---
+
+
+IN79 - Product Aging
+====================
+
+This function is used to create Inventory Stock list by Age Date (date product was received) of product, with subtotals by product line.
+
+1. Choose Inventory Control » Inventory Reports » Product Aging [IN79].
+3. If necessary, change the number of days for the First, Second, Third, and Fourth aging periods (these default to 30/60/90/120 respectively).
+
+Output
+------
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
+| Product |  |  |  |
+| Warehouse |  |  |  |
+| IUM |  |  |  |
+| On-Hand Tot |  |  |  |
+| 0-30 Days |  |  |  |
+| 31-60 Days |  |  |  |
+| 91-120 Days |  |  |  |
+| Over 120 Days |  |  |  |
+
+---

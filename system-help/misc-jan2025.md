@@ -1,0 +1,55 @@
+---
+title: "Jan2025"
+source: "madcap.md"
+tags: ["4GL", "MISC", "Help Documentation"]
+version: "1.0"
+last_updated: "2026-02-19"
+short_description: "Jan2025 - 4GL Help Documentation"
+long_description: "This topic provides detailed information about Jan2025 in the 4GL system. It includes step-by-step procedures, reference information, and best practices for using this functionality within the MISC module."
+---
+
+
+Webinar – January 2025
+======================
+
+
+
+What did this webinar cover?
+
+
+|  |  |
+| --- | --- |
+| HANDHELDS |  |
+| WF1Y - Add log to count on HH | 3.21 |
+| WF12 - Show commitments against log - F000196 - Type VIEW | 3.21 |
+| Stocktake Menu - MS32 - HH1 - Options -> Handheld - MS9H | 3.21 |
+| TASK MANAGER |  |
+| Allow Supervisors to approve/disapprove tasks | 3.21 |
+| MS32 - Superuser can approve/disapprove any task | 3.21 |
+| Branch Transfer Approval Task | 3.22 |
+| Consolidate Purchase Requisitions | 3.21 |
+| MISCELLANEOUS |  |
+| MS32 - New switch to allow session kill | 3.21 |
+| Write pick date and time on OEL\_LOG and OEL\_SAV | 3.21 |
+| Cost per length/Square IN62 - Summary | 3.21 |
+| PR34 - Excel Import | 3.21 |
+| Blanket Order Release OE72C - W0014903 | 3.21 |
+| Email MTRs for a quote OE7B | 3.22 |
+| Subject and Body for customer Statements AR7V | 3.22 |
+| Utility to open a bank CB98 | 3.22 |
+| OE61 Track Order Changes - W014903 | 3.21 |
+| Uppercase requirement GONE! | 3.21 |
+| IN7ZI Changes | 3.21 |
+| Changes to Customs Paperwork | 3.22 |
+| Customer Portal E-commerce flag to hide logs window | 3.21 |
+| Use stock cost in calculating Price Book markup | 3.21 |
+| Customer Portal "Create Quote" changes | 3.21 |
+| P.O. Approval limits by Warehouse | 3.22 |
+| Automatic environmental surcharge calculation | 3.22 |
+| MN71 Summary Version | 3.22 |
+| OE7XH exportable to EXCEL | 3.22 |
+| DASHBOARDS |  |
+| Salesperson Dashboard cater for outside salesperson | 3.22 |
+| Sales Manager Dashboard Enhancements |  |
+
+---
