@@ -14,22 +14,8 @@ long_description: >-
 This function produces a report containing monthly weight, sales, margin and gross margin percent by customer for the past two years (current and previous calendar year).
 
 1. Choose Sales Order Entry » Order Entry Reports » Misc & Custom Reports » Custom Reports » Monthly Sales By Customer Summary \[OE7ZS].
-2. Enter or select the Customer code.
+2. Enter or select the Warehouse code plus _Child Warehouse_ indicator (defaults to warehouse assigned to operator).
+3. Enter or select the Customer code.
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
-## Output
-
-|                         |                                                                        |                      |                             |
-| ----------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading          | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Month - Last 12 Months  |                                                                        |                      |                             |
-| Weight - Last 12 Months |                                                                        |                      |                             |
-| Sales - Last 12 Months  |                                                                        |                      |                             |
-| Margin - Last 12 Months |                                                                        |                      |                             |
-| G.M.% - Last 12 Months  |                                                                        |                      |                             |
-| Month - Prev 12 Months  |                                                                        |                      |                             |
-| Weight - Prev 12 months |                                                                        |                      |                             |
-| Sales - Prev 12 months  |                                                                        |                      |                             |
-| Margin - Prev 12 months |                                                                        |                      |                             |
-| G.M. % - Prev 12 Months |                                                                        |                      |                             |
-
-***
+<br>
