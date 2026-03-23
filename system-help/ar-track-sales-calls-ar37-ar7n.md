@@ -22,7 +22,7 @@ Capture and review sales call information for current or potential customers. An
 7. Click … beside the R field, then enter the remarks you want to capture about the sales call.
 8. The U column allows you to view any customer UDF values populated in AR17 or AR1L.
 
-You can import sales call remarks into : first download the Excel template using AR38, complete the spreadsheet, then import it using AR39. If a remark type was marked as default in OE1O, you can leave the Category blank in the spreadsheet.
+You can import sales call remarks into SM3: first download the Excel template using AR38, complete the spreadsheet, then import it using AR39. If a remark type was marked as default in OE1O, you can leave the Category blank in the spreadsheet.
 
 ## Viewing Calls
 
