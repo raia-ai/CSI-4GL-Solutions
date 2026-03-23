@@ -1,20 +1,17 @@
 ---
-title: "Managing Canada Customs Paperwork"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Managing Canada Customs Paperwork"
-long_description: "Help documentation for Managing Canada Customs Paperwork in the 4GL system."
+title: Managing Canada Customs Paperwork
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Managing Canada Customs Paperwork
+long_description: Help documentation for Managing Canada Customs Paperwork in the 4GL system.
 ---
 
-Managing Canada Customs Paperwork
-=================================
+# Managing Canada Customs Paperwork
 
-Canada Customs requires specific paperwork to accompany shipments from the United States to Canada.  allows you to record the information required to be able to generate this paperwork.
+Canada Customs requires specific paperwork to accompany shipments from the United States to Canada. allows you to record the information required to be able to generate this paperwork.
 
-Setup
------
+## Setup
 
 The two related forms (USMCA Certificate of Origin and the Canada Customs form) can be found in the Warehouse Controls > Forms. Adjust the form print options as required.
 
@@ -26,33 +23,31 @@ The HTSUS code on the product line is used as a fallback when the code is blank 
 
 1. Go to the Product Line Maintenance (IN16) and select the product line.
 2. Press F9 to display the additional fields.
-3. F4 into Options and enter the HTSUS Code for that product line.
+3. F4 into Options and enter the HTSUS Code for that product line.
 
-To mass update the HTSUS Code for multiple product lines or enter HTSUS Codes at the product level:
+To mass update the HTSUS Code for multiple product lines or enter HTSUS Codes at the product level:
 
-1. Choose Inventory Control » Inventory Utilities » Export/Import Product HTSUS Codes [IN9YE].
+1. Choose Inventory Control » Inventory Utilities » Export/Import Product HTSUS Codes \[IN9YE].
 2. Export the product line data:
    1. Select Export.
    2. Select the product line or enter “ALL”.
-   3. Click Save.  will generate an Excel spreadsheet containing all the products from the selected product line(s) and any HTSUS codes previously entered.
-3. Open the spreadsheet and enter or modify the HTSUS codes as necessary.
+   3. Click Save. will generate an Excel spreadsheet containing all the products from the selected product line(s) and any HTSUS codes previously entered.
+3. Open the spreadsheet and enter or modify the HTSUS codes as necessary.
 4. Import the data:
    1. Go to IN9YE again.
    2. Select Import.
 
-Generating the Paperwork
-------------------------
+## Generating the Paperwork
 
 You can generate the Canada Customs paperwork after you have invoiced the order.
 
-* To print the USMCA Certificate of Origin, choose Sales Order Entry » Order Entry Reprints » US-Mexico-Canada COO Reprint [OE7WA].  
-  If you select one invoice, you can click Print.   
+*   To print the USMCA Certificate of Origin, choose Sales Order Entry » Order Entry Reprints » US-Mexico-Canada COO Reprint \[OE7WA].\
+    If you select one invoice, you can click Print.\
+    If you select “ALL” documents, you must first select the Customer, Ship-To, and Invoice Date, then click Print; the form will contain lines items for all invoices of the selected customer for the selected Invoice Date.
+
+    The HTSUS code that prints is the product HTSUS code. If the HTSUS code is blank for the product, then it will print the HTSUS code for the product line instead.
+* To print the Canada Customs form, choose Sales Order Entry » Order Entry Reprints » Canada Customs Paperwork Reprint \[OE7WB].\
+  If you select one invoice, you can click Print.\
   If you select “ALL” documents, you must first select the Customer, Ship-To, and Invoice Date, then click Print; the form will contain lines items for all invoices of the selected customer for the selected Invoice Date.
 
-  The HTSUS code that prints is the product HTSUS code. If the HTSUS code is blank for the product, then it will print the HTSUS code for the product line instead.
-
-* To print the Canada Customs form, choose Sales Order Entry » Order Entry Reprints » Canada Customs Paperwork Reprint [OE7WB].   
-  If you select one invoice, you can click Print.   
-  If you select “ALL” documents, you must first select the Customer, Ship-To, and Invoice Date, then click Print; the form will contain lines items for all invoices of the selected customer for the selected Invoice Date.
-
----
+***

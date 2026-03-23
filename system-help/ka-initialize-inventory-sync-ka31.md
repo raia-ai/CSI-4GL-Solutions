@@ -1,15 +1,13 @@
 ---
-title: "Initialize Inventory Sync [KA31]"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Initialize Inventory Sync [KA31]"
-long_description: "Help documentation for Initialize Inventory Sync [KA31] in the 4GL system."
+title: Initialize Inventory Sync [KA31]
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Initialize Inventory Sync [KA31]
+long_description: Help documentation for Initialize Inventory Sync [KA31] in the 4GL system.
 ---
 
-Initialize Inventory Sync [KA31]
-================================
+# Initialize Inventory Sync \[KA31]
 
 This function will extract Inventory detail (On-Hand Balance, Heat Number, etc.) from Kasto. There are two processing modes: Non-Synchronized or Synchronized.
 
@@ -18,7 +16,7 @@ This function will extract Inventory detail (On-Hand Balance, Heat Number, etc.)
 
 In both modes a single HLBM – Inventory Inquiry is created in KAR\_RCV for it to be processed by the Communication Engine.
 
-Synchronized mode will first create a sync file KAS\_SNC from all  logs and then match these records to those extracted from Kasto. It will also set a variable on the WHS\_KA file to indicate that a sync is in progress.
+Synchronized mode will first create a sync file KAS\_SNC from all logs and then match these records to those extracted from Kasto. It will also set a variable on the WHS\_KA file to indicate that a sync is in progress.
 
 This file can be used to analyse the state of the data in the following functions:
 
@@ -30,10 +28,10 @@ This file can be used to analyse the state of the data in the following function
 
 After running KA31, you should run the following functions:
 
-* Sync Analysis Report [KA78]
-* Analyze Inventory Sync [KA77].
-* Heat/Length Analysis >0 [KA68]
-* Reset Sync Completion Code [KA82]
-* Heat/Length Analysis>=0 [KA83]
+* Sync Analysis Report \[KA78]
+* Analyze Inventory Sync \[KA77].
+* Heat/Length Analysis >0 \[KA68]
+* Reset Sync Completion Code \[KA82]
+* Heat/Length Analysis>=0 \[KA83]
 
----
+***

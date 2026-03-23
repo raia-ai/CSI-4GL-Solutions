@@ -1,17 +1,6 @@
 ---
 title: General_Metals_Knowledge-Metals_Order_Lifecycle
 source: General_Metals_Knowledge-Metals_Order_Lifecycle.docx
-tags:
-  - metals
-  - order lifecycle
-  - sales order
-  - procurement
-  - manufacturing
-  - logistics
-  - ERP
-  - inventory management
-  - quality control
-  - operations
 version: '1.0'
 last_updated: '2025-12-03'
 short_description: >-
@@ -37,7 +26,7 @@ long_description: >-
   for changes, returns, or quality holds. The purpose is to provide a reliable
   reference for onboarding, compliance, and continuous improvement, ensuring
   consistent terminology, clear inputs/outputs for each step, and visibility
-  into ownership and controls throughout the quote-to-cash lifecycle. 
+  into ownership and controls throughout the quote-to-cash lifecycle.
 ---
 
 # General Metals Knowledge Metals Order Lifecycle

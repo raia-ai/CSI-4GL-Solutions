@@ -1,15 +1,13 @@
 ---
-title: "Cloning a Line on an Order"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Cloning a Line on an Order"
-long_description: "Help documentation for Cloning a Line on an Order in the 4GL system."
+title: Cloning a Line on an Order
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Cloning a Line on an Order
+long_description: Help documentation for Cloning a Line on an Order in the 4GL system.
 ---
 
-Cloning a Line on an Order
-==========================
+# Cloning a Line on an Order
 
 You may clone a line on a quote/order, e.g. to order multiple lengths of the same product. You can clone fixed, cut, and random length product lines. The dimension will be copied from the source line; you cannot change the size.
 
@@ -23,4 +21,4 @@ Click Sales or Quotes to view the history of sales (or quotes) of this product t
 
 4. Click Save. The new lines are added to the quote/order.
 
----
+***

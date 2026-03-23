@@ -1,23 +1,19 @@
 ---
-title: "Inventory Inquiry"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Inventory Inquiry"
-long_description: "Help documentation for Inventory Inquiry in the 4GL system."
+title: Inventory Inquiry
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Inventory Inquiry
+long_description: Help documentation for Inventory Inquiry in the 4GL system.
 ---
 
-Inventory Inquiry
-=================
+# Inventory Inquiry
 
 Count physical inventory.
 
-![](../Resources/Images/WH_inv_count.png)
+\[update with content from / add related topic to Inventory Count Data Entry IN5E]
 
-[update with content from / add related topic to Inventory Count Data Entry IN5E]
-
-following is added per BG 39192 :
+following is added per BG 39192 :
 
 If you search by Log, you can search by case or log number, and it will return a product code for valid inventory or pre-received logs (including production FG logs).
 
@@ -28,4 +24,4 @@ If you search by Order:
 * If you search by order number suffixed with a line index, the search window appears with the search type and index already populated.
 * If you search by order number but omit a document index, you will be prompted to enter the index.
 
----
+***

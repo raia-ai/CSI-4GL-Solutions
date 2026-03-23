@@ -1,17 +1,15 @@
 ---
-title: "One Step Invoicing"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "One Step Invoicing"
-long_description: "Help documentation for One Step Invoicing in the 4GL system."
+title: One Step Invoicing
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: One Step Invoicing
+long_description: Help documentation for One Step Invoicing in the 4GL system.
 ---
 
-One Step Invoicing
-==================
+# One Step Invoicing
 
-One-Step Invoicing allows you to create a sales order and a packing slip in one step (rather than creating the packing slip in Picking Confirmation). All documents (sales order, pick slip, packing slip) are printed, and  automatically confirms the logs, prior to material being picked in the warehouse.
+One-Step Invoicing allows you to create a sales order and a packing slip in one step (rather than creating the packing slip in Picking Confirmation). All documents (sales order, pick slip, packing slip) are printed, and automatically confirms the logs, prior to material being picked in the warehouse.
 
 The following rules must apply (for all lines on the sales order):
 
@@ -30,15 +28,14 @@ To process a sales order using One-Step Processing:
 
 When there are multiple logs to be selected, the system will pick those logs with one piece remaining, removing all weight in the “Picked” Inventory Quantity – the theoretical weight will be in the “Used” Inventory Quantity. Total Picked Quantity = Work Order quantity.
 
-The formula used by system for calculation of Picked / Used Quantity:  
-*Total Sale Order Qty \* Used quantity for each log line / Total Used quantity for all Logs:*
+The formula used by system for calculation of Picked / Used Quantity:\
+&#xNAN;_&#x54;otal Sale Order Qty \* Used quantity for each log line / Total Used quantity for all Logs:_
 
 5. If logs were not assigned when the sales order was created, they will have to be picked (press F4 on the Picked Quantities – Inventory to open Inventory Log Information window).
 6. After confirmation of sales order shipments, press F3 to exit. The packing slip will print, the sales order status will change to PRT and an invoice number will be assigned. An invoice can now be printed in the normal manner.
 
 Configuration
 
+1 MS32 > Options > Order Entry > One-Step Invoicing
 
-1 MS32 > Options > Order Entry > One-Step Invoicing
-
----
+***

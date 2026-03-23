@@ -1,21 +1,19 @@
 ---
-title: "Creating a Custom Financial Report"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Creating a Custom Financial Report"
-long_description: "Help documentation for Creating a Custom Financial Report in the 4GL system."
+title: Creating a Custom Financial Report
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Creating a Custom Financial Report
+long_description: Help documentation for Creating a Custom Financial Report in the 4GL system.
 ---
 
-Creating a Custom Financial Report
-==================================
+# Creating a Custom Financial Report
 
 The Financial Report Writer allows you to setup, maintain and print custom financial reports from balances in the GL accounts. All reports created in the Financial Report Writer can be exported to Excel (printer code XLS).
 
-1. Choose General Ledger » GL Reports » Financial Report Writer » Report Maintenance [RG1].
+1.  Choose General Ledger » GL Reports » Financial Report Writer » Report Maintenance \[RG1].
 
-   Step two is skipped when modifying an existing report.
+    Step two is skipped when modifying an existing report.
 2. Enter Report Number ID (up to two numeric digits).
 3. Enter or select report Description. Description will print as a Report Header, identical to input, on reports.
 4. In the Columns field, press F4 to define the columns for the report; in the Maintain Column Details screen:
@@ -24,14 +22,13 @@ The Financial Report Writer allows you to setup, maintain and print custom finan
 5. In the Groups field, press F4 to define the rows for the report in the Group Maintenance screen; see below.
 6. To add remarks or change the report to single spaced, press F9.
 
-Adding Rows to the Report
--------------------------
+## Adding Rows to the Report
 
 To create rows in the report, you will add the general ledger accounts that pertain to the report. Each general ledger account you include is constructed into a group that may contain a header, line, and total; these are presented as the rows in the report.
 
 In the Group Maintenance screen:
 
-1. Enter a Group number (up to three numeric characters).  prints the lines in ascending Group number.
+1. Enter a Group number (up to three numeric characters). prints the lines in ascending Group number.
 
 When creating lines leave gaps between the numbers to allow for new lines to be inserted in the future.
 
@@ -48,15 +45,16 @@ When creating lines leave gaps between the numbers to allow for new lines to be 
 
 ### If Group Type = “L” (Line)
 
-1. To provide a title for the “Total” line for all the accounts, press F9 and enter a group number (up to three digits) in the Trailer field. [currently not working in Oracle, hide until fixed].
-2. Press F4 in the Lines field to identify the lines in the report; in the Line Maintenance screen:
-   1. Enter a Line number, up to three numeric characters.
+1. To provide a title for the “Total” line for all the accounts, press F9 and enter a group number (up to three digits) in the Trailer field. \[currently not working in Oracle, hide until fixed].
+2.  Press F4 in the Lines field to identify the lines in the report; in the Line Maintenance screen:
 
-   When creating lines leave gaps between the numbers to allow for new lines to be inserted in the future.
+    1. Enter a Line number, up to three numeric characters.
 
-   2. Enter a Description.
-   3. Press F4 to select the GL Accounts to be included for the line. In the Account Maintenance screen, select an account or press F9 to select a range of accounts. Enter sign of account: “+” = if totaling line account or “-” if not.
-   4. In the Det Y/N field, select the check box if you want GL accounts to be displayed in report, or leave blank to hide them.
+    When creating lines leave gaps between the numbers to allow for new lines to be inserted in the future.
+
+    2. Enter a Description.
+    3. Press F4 to select the GL Accounts to be included for the line. In the Account Maintenance screen, select an account or press F9 to select a range of accounts. Enter sign of account: “+” = if totaling line account or “-” if not.
+    4. In the Det Y/N field, select the check box if you want GL accounts to be displayed in report, or leave blank to hide them.
 3. In the Percentage Calculation screen, press F4 in the Sub Total Group field to select a “Total” account.
 
 Ensure a column is created to display percentage.
@@ -70,8 +68,8 @@ It is based on populating four separate columns each time a value is added to re
 1. Select Sub Total Number: 1 = first, 2 = second, 3 = third, G = grand total.
 2. To print the sub total on the report, select the Sub Total Print check box or leave blank to hide sub total.
 3. To select the number of spaces to indent the total on the printed report, type column number of spaces in Column Number Indent field.
-4. To clear accumulating sub total select the  Clear Sub Total check box, or leave blank to keep original sub total.
-5. Press F4 in the Sub Total Group field to select a “Total” account.
+4. To clear accumulating sub total select the Clear Sub Total check box, or leave blank to keep original sub total.
+5. Press F4 in the Sub Total Group field to select a “Total” account.
 
 Ensure a column is created to display percentage.
 
@@ -79,31 +77,30 @@ Ensure a column is created to display percentage.
 
 Sample Income Statement
 
-
 This sample Income Statement illustrates how system accumulates totals, and is explained below the table.
 
-|  |  |  |  |  |
-| --- | --- | --- | --- | --- |
-|  | First Total | Second Total | Third Total | **Grand Total** |
-| Sales | 100,000 | 100,000 | 100,000 | 100,000 |
-| Cost of Goods Sold | -75,000 | -75,000 | -75,000 | -75,000 |
-| Gross Profit ('Total 2' and clear) | 0 | 25,000 |  |  |
-|  |  |  |  |  |
-| Advertising Expense | -2,000 | -2,000 | -2,000 | -2,000 |
-| Commissions Expense | -5,000 | -5,000 | -5,000 | -5,000 |
-| Selling Expenses ('Total 1', clear an switch sign) | -7,000 |  |  |  |
-| Office Supplies Expenses | -3,500 | -3,500 | -3,500 | -3,500 |
-| Office Equipment Expenses | -2,500 | -2,500 | -2,500 | -2,500 |
-| Administrative Expenses ('Total 1', clear and switch sign) | -6,000 |  |  |  |
-| Total Operating Expenses ('Total 2", clear and switch sign) | 0 | -13,000 |  |  |
-| Operating Income ('Total 3') |  |  | 12,000 |  |
-|  |  |  |  |  |
-| Interest Revenues | 5,000 | 5,000 | 5,000 | 5,000 |
-| Gain on Sale of Investments | 3,000 | 3,000 | 3,000 | 3,000 |
-| Interest Expense | -500 | -500 | -500 | -500 |
-| Loss from Lawsuit | -1,500 | -1,500 | -1,500 | -1,500 |
-| Total Non-Operating ('Total 2' and clear) | 0 | 6,000 |  |  |
-| Net Income ('Total 3' and clear) |  |  | 18,000 |  |
+|                                                             |             |              |             |                 |
+| ----------------------------------------------------------- | ----------- | ------------ | ----------- | --------------- |
+|                                                             | First Total | Second Total | Third Total | **Grand Total** |
+| Sales                                                       | 100,000     | 100,000      | 100,000     | 100,000         |
+| Cost of Goods Sold                                          | -75,000     | -75,000      | -75,000     | -75,000         |
+| Gross Profit ('Total 2' and clear)                          | 0           | 25,000       |             |                 |
+|                                                             |             |              |             |                 |
+| Advertising Expense                                         | -2,000      | -2,000       | -2,000      | -2,000          |
+| Commissions Expense                                         | -5,000      | -5,000       | -5,000      | -5,000          |
+| Selling Expenses ('Total 1', clear an switch sign)          | -7,000      |              |             |                 |
+| Office Supplies Expenses                                    | -3,500      | -3,500       | -3,500      | -3,500          |
+| Office Equipment Expenses                                   | -2,500      | -2,500       | -2,500      | -2,500          |
+| Administrative Expenses ('Total 1', clear and switch sign)  | -6,000      |              |             |                 |
+| Total Operating Expenses ('Total 2", clear and switch sign) | 0           | -13,000      |             |                 |
+| Operating Income ('Total 3')                                |             |              | 12,000      |                 |
+|                                                             |             |              |             |                 |
+| Interest Revenues                                           | 5,000       | 5,000        | 5,000       | 5,000           |
+| Gain on Sale of Investments                                 | 3,000       | 3,000        | 3,000       | 3,000           |
+| Interest Expense                                            | -500        | -500         | -500        | -500            |
+| Loss from Lawsuit                                           | -1,500      | -1,500       | -1,500      | -1,500          |
+| Total Non-Operating ('Total 2' and clear)                   | 0           | 6,000        |             |                 |
+| Net Income ('Total 3' and clear)                            |             |              | 18,000      |                 |
 
 Above table consists of five columns:
 
@@ -122,4 +119,4 @@ So now when we take a look at the ‘Operating Income’ we can select to displa
 
 When you select to display the Third Total again it will be the accumulation of the ‘Net Income’, Third Total, and the values that follow, which will give us a total of ’18,000’. (You may choose to display the Grand Total, which will give you the same result, ’18,000’.)
 
----
+***

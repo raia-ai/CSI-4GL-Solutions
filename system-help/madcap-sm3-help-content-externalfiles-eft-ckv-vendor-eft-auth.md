@@ -1,12 +1,41 @@
 ---
-title: "Madcap_-_SM3_Help-Content-ExternalFiles-EFT_CKV-Vendor_EFT_Auth"
-source: "Madcap_-_SM3_Help-Content-ExternalFiles-EFT_CKV-Vendor_EFT_Auth.docx"
-tags: ["Madcap", "4GL", "Help Content", "EFT", "CKV", "Vendor", "Authorization", "Payments", "Banking", "Template"]
-version: "1.0"
-last_updated: "2025-12-03"
-short_description: "Template for Vendor EFT (Electronic Funds Transfer) Authorization used by Our Steel Company. Includes introductory letter, privacy statement, vendor update information, and financial institution details with fields for routing, account number, and contact information to enable electronic payments."
-long_description: "This document is a structured help-content template for initiating vendor electronic payments (EFT) with Our Steel Company. It opens with a brief letter explaining the convenience of receiving invoice payments electronically and invites vendors to enroll. A Privacy Statement section outlines the company’s Privacy Policy, emphasizing the importance of confidentiality and describing: the information collected, how that information is used or shared to complete transactions, and the elements of a vendor’s client profile. It clarifies that information is not shared with third parties except as required to process payments or comply with legal requests, and that verification steps (such as checks with credit bureaus, banks, or other parties) may be taken to confirm provided details. The core of the file is the Vendor Payment Authorization form. Section 1 captures Vendor Update Information, including vendor name, address, city, state, ZIP code, primary contact, telephone, fax, and a designated email address to receive payment advice notifications. Section 2 captures Financial Institution Information necessary for EFT setup, such as the Routing Transit/ABA number (9 digits), Account number (up to 12 digits), account type, account name, bank name and address, city, state, ZIP code, and bank telephone number. The form concludes with an authorization statement allowing Our Steel Company to deposit funds into the specified account, followed by signature fields for vendor name, authorized signature, printed name, title, and date. This Markdown conversion preserves the original content, formats key sections as headers, and represents digit entry boxes for routing and account numbers using GitHub Flavored Markdown tables for clarity in a text-based repository."
+title: Madcap_-_SM3_Help-Content-ExternalFiles-EFT_CKV-Vendor_EFT_Auth
+source: Madcap_-_SM3_Help-Content-ExternalFiles-EFT_CKV-Vendor_EFT_Auth.docx
+version: '1.0'
+last_updated: '2025-12-03'
+short_description: >-
+  Template for Vendor EFT (Electronic Funds Transfer) Authorization used by Our
+  Steel Company. Includes introductory letter, privacy statement, vendor update
+  information, and financial institution details with fields for routing,
+  account number, and contact information to enable electronic payments.
+long_description: >-
+  This document is a structured help-content template for initiating vendor
+  electronic payments (EFT) with Our Steel Company. It opens with a brief letter
+  explaining the convenience of receiving invoice payments electronically and
+  invites vendors to enroll. A Privacy Statement section outlines the company’s
+  Privacy Policy, emphasizing the importance of confidentiality and describing:
+  the information collected, how that information is used or shared to complete
+  transactions, and the elements of a vendor’s client profile. It clarifies that
+  information is not shared with third parties except as required to process
+  payments or comply with legal requests, and that verification steps (such as
+  checks with credit bureaus, banks, or other parties) may be taken to confirm
+  provided details. The core of the file is the Vendor Payment Authorization
+  form. Section 1 captures Vendor Update Information, including vendor name,
+  address, city, state, ZIP code, primary contact, telephone, fax, and a
+  designated email address to receive payment advice notifications. Section 2
+  captures Financial Institution Information necessary for EFT setup, such as
+  the Routing Transit/ABA number (9 digits), Account number (up to 12 digits),
+  account type, account name, bank name and address, city, state, ZIP code, and
+  bank telephone number. The form concludes with an authorization statement
+  allowing Our Steel Company to deposit funds into the specified account,
+  followed by signature fields for vendor name, authorized signature, printed
+  name, title, and date. This Markdown conversion preserves the original
+  content, formats key sections as headers, and represents digit entry boxes for
+  routing and account numbers using GitHub Flavored Markdown tables for clarity
+  in a text-based repository.
 ---
+
+# Madcap\_-\_SM3\_Help-Content-ExternalFiles-EFT\_CKV-Vendor\_EFT\_Auth
 
 your company logo/address
 
@@ -14,11 +43,11 @@ Our Steel Company has the ability to submit payments for your invoices electroni
 
 If you would like to receive payments electronically from Our Steel Company in the future, please complete the enclosed form and return via email to:
 
-**Contact Person:**        your contact name
+**Contact Person:** your contact name
 
-**Phone:**             your phone number
+**Phone:** your phone number
 
-**Email:**             your email address
+**Email:** your email address
 
 Thank you
 
@@ -26,23 +55,23 @@ Your Signature
 
 Your Title
 
-## Privacy Statement
+### Privacy Statement
 
-### Privacy Policy
+#### Privacy Policy
 
 This Privacy Policy is a disclosure of the policies and terms for Our Steel Company.
 
 We believe your personal information is important. We understand that you deserve confidentiality in regards to your business and personal transactions. This policy is meant to disclose the type of information we collect during the course of business and how we will use that information.
 
-### The Information We Collect
+#### The Information We Collect
 
 We only collect information necessary for us to complete our business transactions with you, your company or both.
 
-### How We Use The Information We Collect
+#### How We Use The Information We Collect
 
 We do not share the information we collect to other companies, except when needed to complete your transactions or as otherwise outlined in our privacy policy.
 
-### Your Client Profile
+#### Your Client Profile
 
 We need to collect information from you in order to create your client profile, provide our services and process your payments and invoices. This information may include contact information, business name, the identity of the principal owner of the business, potential transaction volume, financial data, bank account information, physical address, URLs, telephone numbers and email addresses. We use this information to start up your account and enable us to conduct business with you.
 
@@ -50,61 +79,60 @@ We will not share this information with third parties. We may, however, take ste
 
 **Please return the attached form to:**
 
-your name
-your email address
+your name your email address
 
-## Vendor Payment Authorization
+### Vendor Payment Authorization
 
-### Section 1: Vendor Update Information
+#### Section 1: Vendor Update Information
 
 **Please review, verify and change any of the information below:**
 
-**Vendor Name:** ____________________________________________________________________
+**Vendor Name:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Address :**_________________________________________________________________________
+**Address :**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**City:** _______________________________________ State:_____  Zip Code:__________________
+**City:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ State:\_\_\_\_\_ Zip Code:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Contact Person:** ___________________________________________________________________
+**Contact Person:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Contact Telephone #:**___________________________ Fax #:_______________________________
+**Contact Telephone #:**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Fax #:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Contact E-mail Address*:**____________________________________________________________
+\*_Contact E-mail Address_:\*\*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-*This email address will be used to send Payment Advices to.
+\*This email address will be used to send Payment Advices to.
 
-### Section 2: Financial Institution Information
+#### Section 2: Financial Institution Information
 
 **Routing Transit/ABA # (max 9 digits):**
 
 |   |   |   |   |   |   |   |   |   |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| - | - | - | - | - | - | - | - | - |
 |   |   |   |   |   |   |   |   |   |
 
 **Account# (max 12 digits):**
 
 |   |   |   |   |   |   |   |   |   |   |   |   |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| - | - | - | - | - | - | - | - | - | - | - | - |
 |   |   |   |   |   |   |   |   |   |   |   |   |
 
-**Account Type (Checking, Saving or Depository) :**____________________________________
+**Account Type (Checking, Saving or Depository) :**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Account Name:**_______________________________________________________________
+**Account Name:**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Bank Name:**__________________________________________________________________
+**Bank Name:**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Bank Address:** ________________________________________________________________
+**Bank Address:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**City:** _____________________________State: ________Zip Code:______________________
+**City:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**State: Zip Code:**
 
-**Bank Telephone Number:**________________________________________________________
+**Bank Telephone Number:**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 The undersigned Vendor hereby authorizes Our Steel Company to deposit funds into the above account at the bank named above.
 
-**Vendor Name:**        _______________________________________________________________
+**Vendor Name:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Authorized Signature:**     _______________________________________________________________
+**Authorized Signature:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Printed Name:**         ________________________________________________________________
+**Printed Name:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Title:**            ___________________________________________    Date:_______________
+**Title:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_

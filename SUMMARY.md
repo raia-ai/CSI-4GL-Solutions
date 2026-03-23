@@ -126,8 +126,6 @@
   * [Customer Dashboard Widgets](system-help/dash-customer.md)
   * [Production Dashboard Widgets](system-help/dash-prod.md)
   * [Salesperson / Sales Manager /  Sales Territory Dashboard Widgets](system-help/dash-sales.md)
-  * [---](system-help/default-csh.md)
-  * [---](system-help/default.md)
   * [Managing Prepayments/Deposits](system-help/deposits.md)
   * [Toyota Stock Management System](system-help/doc.md)
   * [Attaching a Document to a Record](system-help/document-attach.md)

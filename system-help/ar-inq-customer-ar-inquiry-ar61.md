@@ -1,19 +1,17 @@
 ---
-title: "Customer AR Inquiry"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Customer AR Inquiry"
-long_description: "Help documentation for Customer AR Inquiry in the 4GL system."
+title: Customer AR Inquiry
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Customer AR Inquiry
+long_description: Help documentation for Customer AR Inquiry in the 4GL system.
 ---
 
-Customer AR Inquiry
-===================
+# Customer AR Inquiry
 
 This function is used to find customers with outstanding credit balances.
 
-1. Choose Accounts Receivable » AR Inquiry » Customer AR Inquiry [AR61].
+1. Choose Accounts Receivable » AR Inquiry » Customer AR Inquiry \[AR61].
 2. Enter or select a Warehouse code, or select the check box to search All warehouses.
 3. To filter the customers, do one of the following:
    * Select the All check box to search all customers.
@@ -32,7 +30,6 @@ To view all open documents on a customer’s account, press F4 on the Grand Tota
 
 Configuration
 
-
 1 Credit hold codes are maintained in AR18, and applied to a customer in AR17 or AR1D
 
----
+***

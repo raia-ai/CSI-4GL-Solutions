@@ -1,18 +1,15 @@
 ---
-title: "Setting Up Toyota ASRS"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Setting Up Toyota ASRS"
-long_description: "Help documentation for Setting Up Toyota ASRS in the 4GL system."
+title: Setting Up Toyota ASRS
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Setting Up Toyota ASRS
+long_description: Help documentation for Setting Up Toyota ASRS in the 4GL system.
 ---
 
-Setting Up Toyota ASRS
-======================
+# Setting Up Toyota ASRS
 
-Setting Up Toyota ASRS Parameters
----------------------------------
+## Setting Up Toyota ASRS Parameters
 
 1. Go to Warehouse Controls (IN19), select the appropriate warehouse, and open the Toyota Options.
 2. Select ASRS Enabled.
@@ -21,12 +18,11 @@ Setting Up Toyota ASRS Parameters
 5. In the Shared Files field, enter the names of the files that will be contained in the Shared Location.
 6. Leave the remaining options, these are for technical use only.
 
-Loading the Parts Master
-------------------------
+## Loading the Parts Master
 
 This function loads the Parts Master into the Toyota ASRS system.
 
-1. Choose Toyota ASRS System » Parts Master Upload (F03) [TSM33].
+1. Choose Toyota ASRS System » Parts Master Upload (F03) \[TSM33].
 2. Select the default Warehouse.
 3. Select **A**dd in the Process field.
 4. Select a Product Line from the list of valid product lines.
@@ -35,4 +31,4 @@ This function loads the Parts Master into the Toyota ASRS system.
 
 The selection of products will be processed and an Item Count will be displayed.
 
----
+***

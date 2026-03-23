@@ -1,15 +1,13 @@
 ---
-title: "Viewing Changes to a Document"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Viewing Changes to a Document"
-long_description: "Help documentation for Viewing Changes to a Document in the 4GL system."
+title: Viewing Changes to a Document
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Viewing Changes to a Document
+long_description: Help documentation for Viewing Changes to a Document in the 4GL system.
 ---
 
-Viewing Changes to a Document
-=============================
+# Viewing Changes to a Document
 
 tracks status changes for the following documents:
 
@@ -27,4 +25,4 @@ Each status code displayed is one of the following Types:
 * SYS are system status codes that are assigned automatically at different stages, such as ASG when a sales order is first entered, then PCK when the order goes to picking confirmation, etc.
 * USR are user-defined status codes. These are never written to a document automatically from , but are applied to a document in MS3V or WF1D.
 
----
+***

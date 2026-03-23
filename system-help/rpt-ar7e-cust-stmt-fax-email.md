@@ -1,36 +1,34 @@
 ---
-title: "AR7E - Sending Customer Statements by Fax/Email"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "AR7E - Sending Customer Statements by Fax/Email"
-long_description: "Help documentation for AR7E - Sending Customer Statements by Fax/Email in the 4GL system."
+title: AR7E - Sending Customer Statements by Fax/Email
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: AR7E - Sending Customer Statements by Fax/Email
+long_description: >-
+  Help documentation for AR7E - Sending Customer Statements by Fax/Email in the
+  4GL system.
 ---
 
-AR7E - Sending Customer Statements by Fax/Email
-===============================================
+# AR7E - Sending Customer Statements by Fax/Email
 
 This function produces customer statements for multiple customers at the same time. For each customer, you define if the statement will be sent by fax, email, both, or print a hard copy.
 
 This function sends the statement to the fax/email defined at the customer level. If you want to send the statement to customer contacts who have statement delivery options defined, use AR7V.
 
-1. Choose Accounts Receivable » AR Reports » Customer Statements Fax/Email [AR7E].
-3. Enter or select the Customer category (defaults to all).
-5. To restrict the report to a single salesperson, select a Salesperson code (by default, the report includes data related to all sales people).
-6. To ensure that a statement is printed for any customers who are not set up for fax or email, select the Default Print check box.
-7. To only produce statements for customers who have requested them (as stored in the customer file)1, set Request Only? to “Y”. By default, a statement is produced for all customers.
-8. By default, only **O**pen documents (that is, do not have monies applied against them) are included. To include all documents, select **ALL**; you can then enter a from date to see all transactions on or after that date.
-
-11. Indicate
-12. In the Invoice or Due Date field, specify whether to age data by Invoice date or Due date.
-13. Indicate if you want to  Show Avg Days to Pay for the customer.
-14. Indicate if you want to Show the AR Contacts.
-
+1. Choose Accounts Receivable » AR Reports » Customer Statements Fax/Email \[AR7E].
+2. Enter or select the Customer category (defaults to all).
+3. To restrict the report to a single salesperson, select a Salesperson code (by default, the report includes data related to all sales people).
+4. To ensure that a statement is printed for any customers who are not set up for fax or email, select the Default Print check box.
+5. To only produce statements for customers who have requested them (as stored in the customer file)1, set Request Only? to “Y”. By default, a statement is produced for all customers.
+6. By default, only **O**pen documents (that is, do not have monies applied against them) are included. To include all documents, select **ALL**; you can then enter a from date to see all transactions on or after that date.
+7. Indicate
+8. In the Invoice or Due Date field, specify whether to age data by Invoice date or Due date.
+9. Indicate if you want to Show Avg Days to Pay for the customer.
+10. Indicate if you want to Show the AR Contacts.
 
 Customers will be included in the report even if they have no documents past due in the specified amount of days. However, such customers will not receive a statement by email or fax.
 
-> Do not enter anything in the Reset field without the guidance of 4GL Support - if you enter D or N, any values previously changed in the table (Type, fax number, email address, Print flag) are wiped out (or restored to the values in the customer file) and you would have to set up your desired statement values again for all customers. The Reset field is used the first time the AR7E is run to pull the default information from the customer files, but subsequently you should only modify the customized statement settings in the AR7E table as described below. For these reasons, access to this function should be restricted.
+> Do not enter anything in the Reset field without the guidance of 4GL Support - if you enter D or N, any values previously changed in the table (Type, fax number, email address, Print flag) are wiped out (or restored to the values in the customer file) and you would have to set up your desired statement values again for all customers. The Reset field is used the first time the AR7E is run to pull the default information from the customer files, but subsequently you should only modify the customized statement settings in the AR7E table as described below. For these reasons, access to this function should be restricted.
 
 Once you have cycled through all the input fields, the table shows matching customers.
 
@@ -46,8 +44,6 @@ Once you have cycled through all the input fields, the table shows matching cust
 
 Configuration
 
+1 Statement = “Y”; for first time setup, enter the email address for statements in the Web/Email field
 
-1
-Statement = “Y”; for first time setup, enter the email address for statements in the Web/Email field
-
----
+***

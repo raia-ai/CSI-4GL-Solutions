@@ -1,18 +1,14 @@
 ---
-title: "Log Label Reprint"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Log Label Reprint"
-long_description: "Help documentation for Log Label Reprint in the 4GL system."
+title: Log Label Reprint
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Log Label Reprint
+long_description: Help documentation for Log Label Reprint in the 4GL system.
 ---
 
-Log Label Reprint
-=================
+# Log Label Reprint
 
 Print inventory labels.
 
-![](../Resources/Images/WH_inv_label.png)
-
----
+***

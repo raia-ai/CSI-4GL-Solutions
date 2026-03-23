@@ -1,21 +1,19 @@
 ---
-title: "Wireless Handheld Functions"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Wireless Handheld Functions"
-long_description: "Help documentation for Wireless Handheld Functions in the 4GL system."
+title: Wireless Handheld Functions
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Wireless Handheld Functions
+long_description: Help documentation for Wireless Handheld Functions in the 4GL system.
 ---
 
-Wireless Handheld Functions
-===========================
+# Wireless Handheld Functions
 
 Your handheld may be configured1 with any combination of the following functions. Access a function by entering the number beside it.
 
-[xref to related hardware requirements]
+\[xref to related hardware requirements]
 
-[use xrefs instead of hlinks; add screen ID to each filename and hidden text in topic]
+\[use xrefs instead of hlinks; add screen ID to each filename and hidden text in topic]
 
 * Log Split
 * Picking Confirmation
@@ -29,11 +27,11 @@ Your handheld may be configured1 with any combination of the following functions
 * Inventory Inquiry
 * Log Transfer
 * Document Status
-* Branch Transfer Receiving [not in old help]
+* Branch Transfer Receiving \[not in old help]
 * Receiving
-* Receiving Confirmation [not in old help]
+* Receiving Confirmation \[not in old help]
 * Create Shipping Labels
-* IP/OP Picking Confirmation
+* IP/OP Picking Confirmation
 * Load Confirmation
 * Manifest Load Confirmation
 * Set Operator Default Label Printer
@@ -41,19 +39,17 @@ Your handheld may be configured1 with any combination of the following functions
 * Package Maintenance
 * Linear Nesting Log Split
 * Update SigmaNEST IP
-* Log Transfer Reversal 
-  [added in 3.9 BG 35151]
+* Log Transfer Reversal \[added in 3.9 BG 35151]
 * Linear Nesting Picking
-* Print Shipping Labels [new to menu; purpose? difference from Create Shipping Labels?]
+* Print Shipping Labels \[new to menu; purpose? difference from Create Shipping Labels?]
 * Package Label Reprint
-* Reverse Packing Slip
-   [? not on menu?]
-* Schedule Production Order [? not on menu?]
-* IP Receipt Confirmation [? WF34 still callable but not on any menu?]
+* Reverse Packing Slip \[? not on menu?]
+* Schedule Production Order \[? not on menu?]
+* IP Receipt Confirmation \[? WF34 still callable but not on any menu?]
 * Cross-Dock BT on Manifest
 * Auto Receive OP Set
 * Add/Update Log on Count
 
 1 Handheld menus can be modified; see Managing Wireless Handheld Menus
 
----
+***

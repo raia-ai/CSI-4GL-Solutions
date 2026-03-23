@@ -1,23 +1,20 @@
 ---
-title: "Highlights"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Highlights"
-long_description: "Help documentation for Highlights in the 4GL system."
+title: Highlights
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Highlights
+long_description: Help documentation for Highlights in the 4GL system.
 ---
 
-Highlights
-==========
+# Highlights
 
 * is now running on PROIV v9 and Oracle v19c. If you are using the Windows client, it will need to be upgraded (download it here).
 * Open Client issue with the Customer, Inventory and Vendor dropdowns has been fixed.
 * Customer and vendor contact names now allow 40 characters.
-* Communication between  and SigmaNEST now requires TLS 1.2 support; in order for SigmaNEST to work with that, you must install Microsoft SQL Server 2014 Service Pack 3 (assuming you are using SQL Server 2014) which can be found here.
+* Communication between and SigmaNEST now requires TLS 1.2 support; in order for SigmaNEST to work with that, you must install Microsoft SQL Server 2014 Service Pack 3 (assuming you are using SQL Server 2014) which can be found here.
 
-Mass Price Adjustment
----------------------
+## Mass Price Adjustment
 
 A new switch (“Mass Price Adjustment Option on Reprice”) changes the functionality of the RePrice button on a sales order, providing a streamlined, efficient way to perform mass price/unit adjustments on quotes and orders.
 
@@ -29,4 +26,4 @@ When the switch is enabled, the Reprice window lists all line items on the quote
 
 All price changes will affect the material portion of the price only – additional operation charges will remain unchanged.
 
----
+***

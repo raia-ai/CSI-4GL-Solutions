@@ -1,15 +1,13 @@
 ---
-title: "Linear Nesting Picking"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Linear Nesting Picking"
-long_description: "Help documentation for Linear Nesting Picking in the 4GL system."
+title: Linear Nesting Picking
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Linear Nesting Picking
+long_description: Help documentation for Linear Nesting Picking in the 4GL system.
 ---
 
-Linear Nesting Picking
-======================
+# Linear Nesting Picking
 
 To pick material for a linear nesting production document, use the Linear Nesting Picking handheld function.
 
@@ -30,12 +28,11 @@ Upon exit a message will alert you if the full order has not been picked.
 
 A log transfer will be processed and the resulting baby log will be picked/stored against the production document.
 
-A Logs button in the project maintenance (IN3F) and project inquiry through order inquiry displays all the logs picked on the project. Furthermore through IN3F you can delete logs from the project as well as exclude a nest pattern from commit-out.   
+A Logs button in the project maintenance (IN3F) and project inquiry through order inquiry displays all the logs picked on the project. Furthermore through IN3F you can delete logs from the project as well as exclude a nest pattern from commit-out.\
 If the “Check For Picked Logs In Linear Nesting Log Split” switch is enabled, when you use the Linear Nesting Log Split you will be warned if you select a log that was not picked.
 
 Configuration
 
+1 > Allow Multiple Labels in Linear Nest Picking
 
-1  > Allow Multiple Labels in Linear Nest Picking
-
----
+***

@@ -1,19 +1,17 @@
 ---
-title: "Entering a Vendor Invoice"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Entering a Vendor Invoice"
-long_description: "Help documentation for Entering a Vendor Invoice in the 4GL system."
+title: Entering a Vendor Invoice
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Entering a Vendor Invoice
+long_description: Help documentation for Entering a Vendor Invoice in the 4GL system.
 ---
 
-Entering a Vendor Invoice
-=========================
+# Entering a Vendor Invoice
 
 This function is used to enter and/or update vendor invoices for accounts payable tracking.
 
-[tip re scanning vendor invoices to be added as an attachment]
+\[tip re scanning vendor invoices to be added as an attachment]
 
 Inventory Items follow the same process as Non-Inventory vouchers with the exception that MS33 is utilized to automatically distribute payments. The system will take your purchase variance and automatically make adjustments. The steps are outlined below:
 
@@ -23,11 +21,10 @@ Inventory Items follow the same process as Non-Inventory vouchers with the excep
 
 Non-Inventory Vouchers follow the process outlined below:
 
-1. Choose Accounts Payable » Vendor Invoice Processing » Voucher Entry Maintenance [AP21B].
+1.  Choose Accounts Payable » Vendor Invoice Processing » Voucher Entry Maintenance \[AP21B].
 
-   The search function allows you to filter the results to the right:
-
-2. Enter or select Type of Entry code: DC = direct check, DD = direct disbursement,  VC = AP voucher.
+    The search function allows you to filter the results to the right:
+2. Enter or select Type of Entry code: DC = direct check, DD = direct disbursement,  VC = AP voucher.
 3. Enter Document number.
 
 If you press new you will be taken to the Header tab:
@@ -40,22 +37,20 @@ If you press new you will be taken to the Header tab:
 8. Enter or select Invoice Date. This field defaults to today however, if your period is open you may back date.
 9. Enter or select Due Date.
 10. Enter the date to be recorded in your GL. Effective Date defaults to your invoice date
-12. Enter Exchange Rate. I think this field may be prefilled from a cashbook?? This is where John's video stops.
+11. Enter Exchange Rate. I think this field may be prefilled from a cashbook?? This is where John's video stops.
 
-    Next, you will then be taken to the Details tab. The system will look at your Invoice Type and require a balance. You will not be allowed to process if the invoice is not balanced.  will auto balance by adding an extra line item.
+    Next, you will then be taken to the Details tab. The system will look at your Invoice Type and require a balance. You will not be allowed to process if the invoice is not balanced. will auto balance by adding an extra line item.
 
 Double click on an account, if you double click on accruals the first step will be required:
 
-1. Vendor may not be the vendor where the accrual was made. In this case you would need to change to original PO vendor here.   
+1. Vendor may not be the vendor where the accrual was made. In this case you would need to change to original PO vendor here.\
    Press Receipt Details to make adjustments to the receipt.
-
-1. Enter Foreign Value.
-2. Enter Description: This extra description is used to distinguish between multiple similar items in the invoice.
+2. Enter Foreign Value.
+3. Enter Description: This extra description is used to distinguish between multiple similar items in the invoice.
 
 If the receipt has a variance click Distribute to balance against Purchase Discounts account.
 
-Applying a Variance Invoice to a Closed AP Line
------------------------------------------------
+## Applying a Variance Invoice to a Closed AP Line
 
 When applying an additional invoice to a closed purchase order line:
 
@@ -64,4 +59,4 @@ When applying an additional invoice to a closed purchase order line:
 3. Click Distribute to balance the voucher. You can ignore the variance warnings.
 4. Perform the Proof Listing and update the voucher. An inventory adjustment will be generated for the variance amount.
 
----
+***

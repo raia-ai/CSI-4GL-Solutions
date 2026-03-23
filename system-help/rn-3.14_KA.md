@@ -1,18 +1,16 @@
 ---
-title: "Kasto"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Kasto"
-long_description: "Help documentation for Kasto in the 4GL system."
+title: Kasto
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Kasto
+long_description: Help documentation for Kasto in the 4GL system.
 ---
 
-Kasto
-=====
+# Kasto
 
-| Ticket | Title | Description | Function | Rel Doc? |
-| --- | --- | --- | --- | --- |
-| 33104 | Investigate purging KAS\_SND and KAR\_RCV | New function to purge send & receive logs that are at least one year old. | KA84 | Send Telegram Log [KA64] Receive Telegram Log [KA63] |
+| Ticket | Title                                     | Description                                                               | Function | Rel Doc?                                               |
+| ------ | ----------------------------------------- | ------------------------------------------------------------------------- | -------- | ------------------------------------------------------ |
+| 33104  | Investigate purging KAS\_SND and KAR\_RCV | New function to purge send & receive logs that are at least one year old. | KA84     | Send Telegram Log \[KA64] Receive Telegram Log \[KA63] |
 
----
+***

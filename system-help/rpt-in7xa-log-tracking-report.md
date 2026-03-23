@@ -1,15 +1,13 @@
 ---
-title: "IN7XA - Log Tracking Report"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "IN7XA - Log Tracking Report"
-long_description: "Help documentation for IN7XA - Log Tracking Report in the 4GL system."
+title: IN7XA - Log Tracking Report
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: IN7XA - Log Tracking Report
+long_description: Help documentation for IN7XA - Log Tracking Report in the 4GL system.
 ---
 
-IN7XA - Log Tracking Report
-===========================
+# IN7XA - Log Tracking Report
 
 This Excel report returns log movements for all logs that fit the selected criteria:
 
@@ -48,4 +46,4 @@ The report will also print values for the following columns if the log movement 
 * margin
 * margin %
 
----
+***

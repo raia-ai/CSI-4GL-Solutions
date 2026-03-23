@@ -1,22 +1,18 @@
 ---
-title: "Attaching a Document to a Record"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Attaching a Document to a Record"
-long_description: "Help documentation for Attaching a Document to a Record in the 4GL system."
+title: Attaching a Document to a Record
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Attaching a Document to a Record
+long_description: Help documentation for Attaching a Document to a Record in the 4GL system.
 ---
 
-Attaching a Document to a Record
-================================
+# Attaching a Document to a Record
 
 The Document Attachment function allows you to attach related documents to a record so that they are accessible to other users. This function is available in many areas of the system, such as order entry, purchase order entry, etc. — wherever you see the Document button at the bottom of the form:
 
-![](../Resources/Images/doc_attach1.png)
-
-*Browser Version:* In order to upload generic documents to sales orders or purchase orders, you must set the “AP Document Attachments” and “AR Document Attachments” directories in IN19, for each warehouse.   
-You should also set the “AR Generic Document File Path Linux” or “AP Generic Document File Path Linux” switches (in  or via MS33 > Accounts Receivable [Payable] > Additional Options) to store system-wide files associated with customers, vendors, and products.
+_Browser Version:_ In order to upload generic documents to sales orders or purchase orders, you must set the “AP Document Attachments” and “AR Document Attachments” directories in IN19, for each warehouse.\
+You should also set the “AR Generic Document File Path Linux” or “AP Generic Document File Path Linux” switches (in or via MS33 > Accounts Receivable \[Payable] > Additional Options) to store system-wide files associated with customers, vendors, and products.
 
 To attach a document to a record:
 
@@ -26,8 +22,6 @@ To attach a document to a record:
 
 Note that for Vendor Invoice Inquiry, to attach a document, click the button in the G column for the record that you want to attach the document to:
 
-![](../Resources/Images/doc_attach2.png)
+It's possible to import multiple generic documents which can be attached to customers or vendors; please for assistance.
 
-It's possible to import multiple generic documents which can be attached to customers or vendors; please  for assistance.
-
----
+***

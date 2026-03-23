@@ -1,45 +1,40 @@
 ---
-title: "Month End Review"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Month End Review"
-long_description: "Help documentation for Month End Review in the 4GL system."
+title: Month End Review
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Month End Review
+long_description: Help documentation for Month End Review in the 4GL system.
 ---
 
-Month End Review
-================
+# Month End Review
 
-Period End Closing
-------------------
+## Period End Closing
 
 In order to close a GL period end, you must ensure that the following have been done:
 
 * Sales Journal
 * All transactions have been posted to the GL
-* All periods have a [F]inal or [C]losed status
-* [R]eopened periods are closed.
+* All periods have a \[F]inal or \[C]losed status
+* \[R]eopened periods are closed.
 
 A period cannot be closed if there are open journal entries (not processed and updated). Periods must be closed in chronological order (oldest to most current).
 
 To close a general ledger fiscal period:
 
-1. Choose General Ledger » GL Period End » Period End Closing [GLA].
+1. Choose General Ledger » GL Period End » Period End Closing \[GLA].
 2. Enter or select the general ledger Fiscal Period To Be Closed in YY/MM format.
 3. In the Process Period Closing field you must enter your authorized response in order for the period to be closed.
 
-Reports
--------
+## Reports
 
 It is not necessary to run reports at month-end; they can be run anytime for a date range.
 
 There is no “Month End” routine that needs to be run – business continues as normal in the next month.
 
-Balancing the GL to Subledger
------------------------------
+## Balancing the GL to Subledger
 
-Run Trial Balance report (GL73) and look for the following GL accounts (you can find the GL codes in MS33 > GL Codes).
+Run Trial Balance report (GL73) and look for the following GL accounts (you can find the GL codes in MS33 > GL Codes).
 
 * Inventory
 * Accounts Receivable
@@ -53,11 +48,11 @@ The values in these accounts must match the value of the subledgers which can be
 * Accounts Payable – AP77(for all vendors)
 * Accruals – AP7F (for all buyers)
 
-[the following was in the original article as copied from the old help; GKW said to get rid of it but it’s here for posterity/inspiration]
+\[the following was in the original article as copied from the old help; GKW said to get rid of it but it’s here for posterity/inspiration]
 
 Cash receipts
 
-Bank deposits physically done in the current month to close, and have not yet created a cash receipt or posted a cash receipt in  must be addressed. You must back date the receipt to the month/day you physically made the deposit at the bank.
+Bank deposits physically done in the current month to close, and have not yet created a cash receipt or posted a cash receipt in must be addressed. You must back date the receipt to the month/day you physically made the deposit at the bank.
 
 Material Receipts
 
@@ -75,4 +70,4 @@ Statements
 
 Once invoicing is complete for your location, and Automatic Interest Program has been executed, confirm GL entries for interest have been posted for your branch in the GL. Statements can then be created – be sure to date statements for the end of the month. Statements will not print for customers who have zero balance owing. Due to the amount of print time required, you should run statements at the end of the day because you will likely need to replenish the paper tray.
 
----
+***

@@ -1,20 +1,17 @@
 ---
-title: "Understanding Sales Pricing"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Understanding Sales Pricing"
-long_description: "Help documentation for Understanding Sales Pricing in the 4GL system."
+title: Understanding Sales Pricing
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Understanding Sales Pricing
+long_description: Help documentation for Understanding Sales Pricing in the 4GL system.
 ---
 
-Understanding Sales Pricing
-===========================
+# Understanding Sales Pricing
 
-An order can include two different prices: pricing associated with the product, and pricing associated with the machine/process used.
+An order can include two different prices: pricing associated with the product, and pricing associated with the machine/process used.
 
-Product Pricing
----------------
+## Product Pricing
 
 There are five options for product pricing. You can:
 
@@ -24,8 +21,9 @@ There are five options for product pricing. You can:
 4. Set up a price book of more complex default product pricing for specific grades/specifications of a product line that takes into account various factors that will be applied against a base price.
 5. Have no pricing suggested for a product (price will default to zero and must be entered manually by the salesperson in the quote/sales order).
 
-Each warehouse will be set up to use one of options 2-5:   
- > Default Sales Price in Order Entry = **C**ustomer Pricing (2), **P**redefined (3), Price **B**ook (4), or **Z**ero (5)
+Each warehouse will be set up to use one of options 2-5:
+
+> Default Sales Price in Order Entry = **C**ustomer Pricing (2), **P**redefined (3), Price **B**ook (4), or **Z**ero (5)
 
 ### Option 1 – Individual Product Pricing
 
@@ -69,30 +67,20 @@ Customer pricing may be set up for a particular product and customer that will o
 
 Setting Up Price Book Pricing
 
-Machine Pricing
----------------
+## Machine Pricing
 
 In addition to the product sales price, you can charge based on the machine process used to create the product, for example you can set up pricing either based on product length and/or thickness, or based on the machine time required.
 
 Maintaining a List of Machines
 
-Example: Viewing the Pricing on a Sales Order
----------------------------------------------
+## Example: Viewing the Pricing on a Sales Order
 
-In the following example, the Waterjet machine is defined in the Machine Master. For SPL products up to 999 inches long and 4 inches thick, the pricing includes an entry of $0.63 per piece for 2-4 pieces: [add background text related to product pricing for this example]
-
-![](../Resources/Images/machine_price_ex1.png)
+In the following example, the Waterjet machine is defined in the Machine Master. For SPL products up to 999 inches long and 4 inches thick, the pricing includes an entry of $0.63 per piece for 2-4 pieces: \[add background text related to product pricing for this example]
 
 In the sales order, we’ve added a product from the SPL product line to an order line and chosen the Waterjet as the Primary Process. The size of the product is within the parameters above:
 
-![](../Resources/Images/machine_price_ex2.png)
-
 Click … in the Sales Price field to see the price calculations. The machine cost is shown in an “M” line. Because the quantity ordered was 2, it used the second price point set in the machine pricing, $0.63 per piece.
-
-![](../Resources/Images/machine_price_ex3.png)
 
 Press F9 to display the calculations:
 
-![](../Resources/Images/machine_price_ex4.png)
-
----
+***

@@ -1,8 +1,6 @@
 ---
 title: Handhelds-StayLinked_Setup
 source: handhelds-staylinked-setup.md
-tags:
-  - 4GL
 version: '1.0'
 last_updated: '2026-02-19'
 short_description: Handhelds-StayLinked_Setup

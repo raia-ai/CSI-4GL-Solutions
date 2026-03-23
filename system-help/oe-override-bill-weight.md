@@ -1,15 +1,15 @@
 ---
-title: "Overriding the Billing Weight of an Order Line"
-source: "madcap.md"
-tags: ["4GL", "Help Documentation"]
-version: "1.0"
-last_updated: "2026-02-19"
-short_description: "Overriding the Billing Weight of an Order Line"
-long_description: "Help documentation for Overriding the Billing Weight of an Order Line in the 4GL system."
+title: Overriding the Billing Weight of an Order Line
+source: madcap.md
+version: '1.0'
+last_updated: '2026-02-19'
+short_description: Overriding the Billing Weight of an Order Line
+long_description: >-
+  Help documentation for Overriding the Billing Weight of an Order Line in the
+  4GL system.
 ---
 
-Overriding the Billing Weight of an Order Line
-==============================================
+# Overriding the Billing Weight of an Order Line
 
 There may be occasions when you want to override the billing dimensions of a piece that you will be cutting.
 
@@ -22,11 +22,11 @@ For example:
 
 The following switches must be set:
 
-* > Override IUMs in Order Entry - set to “Y” to be able to override the dimensions which will, in turn, calculate the billing weight
-* IN16 > Warehouse > Skip Onhand Reserves - must be unselected in order to access the reserve field
+* > &#x20;Override IUMs in Order Entry - set to “Y” to be able to override the dimensions which will, in turn, calculate the billing weight
+* IN16 > Warehouse > Skip Onhand Reserves - must be unselected in order to access the reserve field
 
 To override the billing weight of an order line:
 
-When adding a line item to an order, on the Product tab, click ![](../Resources/Images/i_wrench.png) beside the On Hand Reserve Qty to view the calculated weight and override it as necessary. Note that the calculated weight includes kerf and squaring allowance if set up against the primary process.
+When adding a line item to an order, on the Product tab, click  beside the On Hand Reserve Qty to view the calculated weight and override it as necessary. Note that the calculated weight includes kerf and squaring allowance if set up against the primary process.
 
----
+***
