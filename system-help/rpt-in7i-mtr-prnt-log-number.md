@@ -12,31 +12,10 @@ long_description: Help documentation for IN7I - MTR By Log Number in the 4GL sys
 This function prints mill test reports assigned to a specific log.
 
 1. Choose Inventory Control » Inventory Reprints » MTR By Log Number \[IN7I].
-2. Enter Log Number; the log number must have an MTR file assigned (do not need to precede with “L” or leading zeros).
-3. Enter a file name for the MTR Image.
-4. Enter or select the MTR Type. \[can’t get into this field to see if there’s a tooltip - what are the options?]
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter Log Number; the log number must have an MTR file assigned (do not need to precede with “L” or leading zeros).
+4. Enter a file name for the MTR Image.
+5. Enter or select the MTR Type.
+6. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

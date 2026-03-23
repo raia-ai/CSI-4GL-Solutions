@@ -12,21 +12,8 @@ long_description: Help documentation for OE7YD - Customer Backorder in the 4GL s
 This report shows backorders by customer.
 
 1. Choose Sales Order Entry » Order Entry Reports » Misc & Custom Reports » Misc Reports » Customer Backorder \[OE7YD].
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Doc No         |                                                                        |                      |                             |
-| Description    |                                                                        |                      |                             |
-| Customer PO    |                                                                        |                      |                             |
-| Ord Date       |                                                                        |                      |                             |
-| Req Date       |                                                                        |                      |                             |
-| Lne            |                                                                        |                      |                             |
-| SUM            |                                                                        |                      |                             |
-| IUM Quantity   |                                                                        |                      |                             |
-| Weight         |                                                                        |                      |                             |
-| Value          |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Customer code (defaults to ALL).
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

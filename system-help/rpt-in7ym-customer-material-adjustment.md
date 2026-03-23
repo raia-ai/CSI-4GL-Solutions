@@ -9,24 +9,12 @@ long_description: Help documentation for IN7YM - Customer Material Adjustment in
 
 # IN7YM - Customer Material Adjustment
 
-\[need description here and in topic properties]
-
 1. Choose Inventory Control » Inventory Reprints » Customer Material Adjustment \[IN7YM].
-2. Enter or select the Type of Entry.
-3. Enter or select the Document No.
-4. Enter or select the Customer.
-5. Indicate if you want to Print Labels.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Product        |                                                                        |                      |                             |
-| Log Number     |                                                                        |                      |                             |
-| Weight         |                                                                        |                      |                             |
-| Pieces         |                                                                        |                      |                             |
-| Quantity       |                                                                        |                      |                             |
-| Unit           |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Type of Entry.
+4. Enter or select the Document No.
+5. Enter or select the Customer.
+6. Indicate if you want to Print Labels.
+7. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

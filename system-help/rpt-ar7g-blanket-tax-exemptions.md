@@ -15,17 +15,6 @@ This report displays customers with tax exemptions or all customers.
 
 1. Choose Accounts Receivable » AR Reports » Blanket Tax Exemptions \[AR7G].
 2. Enter “Y” to display all customers regardless of tax status (by default, only tax-exempt customers are shown).
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Customer       |                                                                        |                      |                             |
-| City           |                                                                        |                      |                             |
-| Sta            |                                                                        |                      |                             |
-| Zip Code       |                                                                        |                      |                             |
-| E              |                                                                        |                      |                             |
-| Exemption No   |                                                                        |                      |                             |
+3. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

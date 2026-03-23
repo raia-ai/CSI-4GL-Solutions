@@ -11,30 +11,10 @@ long_description: >-
 
 # IN7YF - Inventory Classification Report #1
 
-\[need description]
-
 1. Choose Inventory Control » Inventory Reports » Inventory Classification Report #1\
    or Purchasing » PO Reports » Inventory Classification Report \[IN7YF].
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Month          |                                                                        |                      |                             |
-| Code A ICC     |                                                                        |                      |                             |
-| Code A Value   |                                                                        |                      |                             |
-| Code B ICC     |                                                                        |                      |                             |
-| Code B Value   |                                                                        |                      |                             |
-| Code C ICC     |                                                                        |                      |                             |
-| Code C Value   |                                                                        |                      |                             |
-| Code D ICC     |                                                                        |                      |                             |
-| Code D Value   |                                                                        |                      |                             |
-| Code ICC       |                                                                        |                      |                             |
-| Code Value     |                                                                        |                      |                             |
-| Code ICC       |                                                                        |                      |                             |
-| Code Value     |                                                                        |                      |                             |
-| Totals ICC     |                                                                        |                      |                             |
-| Totals Value   |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

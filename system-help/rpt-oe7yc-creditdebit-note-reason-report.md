@@ -9,34 +9,19 @@ long_description: Help documentation for OE7YC - Credit / Debit Note Reason in t
 
 # OE7YC - Credit / Debit Note Reason
 
-This report displays credit/debit notes sorted by the reasons they were generated. \[xref to Reason Code File Maintenance OR19]
+This report displays credit/debit notes sorted by the reasons they were generated.
 
 1. Choose Sales Order Entry » Order Entry Reports » Misc & Custom Reports » Misc Reports » Credit/Debit Note Reason \[OE7YC].
-2. Enter the Type of Entry: CM = credit notes only, DM = debit notes only, or ALL.
-3. Enter or select the Reason code (defaults to all).
-4. Enter or select the Customer (defaults to all).
-5. Enter or select the Document Status: SHP = shipped, not yet invoiced, UPD = invoiced (default) or ALL.
-6. Enter or select the Operator (defaults to all).
-7. Indicate if you want to sort the report by Salesperson or order **W**riter.
-8. Indicate if you want to Use Avg Cost; leave blank to use actual cost.
-9. Indicate if you want to only print a Summary version of the report.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Doc No         |                                                                        |                      |                             |
-| Date           |                                                                        |                      |                             |
-| Name           |                                                                        |                      |                             |
-| Wrt            |                                                                        |                      |                             |
-| Lne            |                                                                        |                      |                             |
-| Description    |                                                                        |                      |                             |
-| Rsn            |                                                                        |                      |                             |
-| Cost Value     |                                                                        |                      |                             |
-| Sales Value    |                                                                        |                      |                             |
-| Gross Margin   |                                                                        |                      |                             |
-| G.M. %         |                                                                        |                      |                             |
-| Docs           |                                                                        |                      |                             |
+2. Enter or select the Warehouse code plus _Child Warehouse_ indicator (defaults to warehouse assigned to operator).
+3. Enter the Type of Entry: CM = credit notes only, DM = debit notes only, or ALL.
+4. Enter or select the Reason code (defaults to all).
+5. Enter or select the Customer (defaults to all).
+6. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+7. Enter or select the Document Status: SHP = shipped, not yet invoiced, UPD = invoiced (default) or ALL.
+8. Enter or select the Operator (defaults to all).
+9. Indicate if you want to sort the report by Salesperson or order Writer.
+10. Indicate if you want to Use Avg Cost; leave blank to use actual cost.
+11. Indicate if you want to only print a Summary version of the report.
+12. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

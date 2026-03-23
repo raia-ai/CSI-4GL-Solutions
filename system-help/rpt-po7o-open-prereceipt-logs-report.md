@@ -9,27 +9,10 @@ long_description: Help documentation for PO7O - Open Pre-Receipt Logs Report in 
 
 # PO7O - Open Pre-Receipt Logs Report
 
-\[need description]
-
 1. Choose Purchasing » PO Reports » Open Pre-Receipt Logs Report \[PO7O].
-2. Enter or select Product code (defaults to all).
-3. Enter or select Product Line (defaults to all).
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Doc No         |                                                                        |                      |                             |
-| Size           |                                                                        |                      |                             |
-| Log No         |                                                                        |                      |                             |
-| Case No        |                                                                        |                      |                             |
-| Heat No        |                                                                        |                      |                             |
-| Bin Loc        |                                                                        |                      |                             |
-| Weight         |                                                                        |                      |                             |
-| Pieces         |                                                                        |                      |                             |
-| Inventory Qty  |                                                                        |                      |                             |
-| Cost Prc       |                                                                        |                      |                             |
-| Value          |                                                                        |                      |                             |
+2. Enter or select the Warehouse code plus _Child Warehouse_ indicator (defaults to warehouse assigned to operator).
+3. Enter or select Product code (defaults to all).
+4. Enter or select Product Line (defaults to all).
+5. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

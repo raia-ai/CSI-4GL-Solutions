@@ -14,6 +14,8 @@ long_description: >-
 Reprint screen for the linear nesting document; the data matches the production document (IN3F) including the barcode.
 
 1. Choose In-House Production » In-House Production Reprints » Linear Nesting Prod Order Reprint \[PR7O].
-2. Enter or select the Project Number.
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Project Number.
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

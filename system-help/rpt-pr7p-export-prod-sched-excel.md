@@ -13,16 +13,15 @@ long_description: >-
 
 This report exports lines from the Machine Production Schedule (PR41B) to Excel. If a customer was selected in the Machine Production Schedule, the report will be filtered by that customer.
 
-\[revise and incorporate new PR7PIMP Import Schedule From Excel; refer to BG 35265 testing notes]
-
 1. Choose In-House Production » Sales Order Controlled » Export Schedule to Excel \[PR7P].
-2. Select the Process to export, or choose “ALL”.
-3. Optionally select one or more Product Line to be included or excluded.
-4. Select the Document type and number, or choose “ALL”.
-5. Optionally select a finished good Project.
-6. Select the Machine to export, or choose “ALL”.
-7. Optionally enter a date range to filter on, or leave blank for all dates. These dates default to the **R**equested date, but you can change it to reference the **E**stimated or **A**ctual schedule date.
-8. If you want to filter on a document status, select the Status check box and select the status.
-9. Click Export.
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Select the Process to export, or choose “ALL”.
+4. Optionally select one or more Product Line to be included or excluded.
+5. Select the Document type and number, or choose “ALL”.
+6. Optionally select a finished good Project.
+7. Select the Machine to export, or choose “ALL”.
+8. Optionally enter a date range to filter on, or leave blank for all dates. These dates default to the Requested date, but you can change it to reference the Estimated or Actual schedule date.
+9. If you want to filter on a document status, select the Status check box and select the status.
+10. Click Export.
 
 ***

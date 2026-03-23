@@ -12,20 +12,11 @@ long_description: "Help documentation for OE7YK - Customers With No Sales - 3 &\
 This function produces a report which displays customers with no (zero) sales for a given period, grouped by salesperson. The report looks at invoices for the period, but you can choose to include sales orders as well.
 
 1. Choose Sales Order Entry » Order Entry Reports » Customers With No Sales - 3 & 6 Mt \[OE7YK].
-2. Enter or select Salesperson code (defaults to all).
-3. Enter or select Start Date and End Date (defaults to today's date).
-4. Indicate if you want the report to include Sales Orders for the period.
-5. Indicate if you want to Show Inactive customers.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Customer       |                                                                        |                      |                             |
-| Phone          |                                                                        |                      |                             |
-| Last Sale      |                                                                        |                      |                             |
-| Doc No         |                                                                        |                      |                             |
-| Value          |                                                                        |                      |                             |
+2. Enter or select Warehouse code (defaults to all warehouses).
+3. Enter or select Salesperson code (defaults to all).
+4. Enter or select Start Date and End Date (defaults to today's date).
+5. Indicate if you want the report to include Sales Orders for the period.
+6. Indicate if you want to Show Inactive customers.
+7. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

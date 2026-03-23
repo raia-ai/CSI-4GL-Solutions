@@ -9,31 +9,11 @@ long_description: Help documentation for OE7XQ - Pre-Invoice Report in the 4GL s
 
 # OE7XQ - Pre-Invoice Report
 
-\[need description here and in topic properties]
-
 1. Choose Sales Order Entry » Order Entry Reports » Pre-Invoice Report \[OE7XQ].
-2. Enter or select Salesperson code (defaults to all).
-3. Enter the document Status to include: PRT, INV, END or ALL.
-
-## Output
-
-|                           |                                                                        |                      |                             |
-| ------------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading            | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Seq                       |                                                                        |                      |                             |
-| Description               |                                                                        |                      |                             |
-| Ordered - Inventory Units |                                                                        |                      |                             |
-| Shipped - Inventory Units |                                                                        |                      |                             |
-| Used - Inventory Units    |                                                                        |                      |                             |
-| Ordered - Pricing Units   |                                                                        |                      |                             |
-| Shipped - Pricing Units   |                                                                        |                      |                             |
-| Sales - Price             |                                                                        |                      |                             |
-| Cost - Price              |                                                                        |                      |                             |
-| PUM                       |                                                                        |                      |                             |
-| Sales - Value             |                                                                        |                      |                             |
-| Cost - Value              |                                                                        |                      |                             |
-| Margin                    |                                                                        |                      |                             |
-| % Marg                    |                                                                        |                      |                             |
-| % Est                     |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select Salesperson code (defaults to all).
+4. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+5. Enter the document Status to include: PRT, INV, END or ALL.
+6. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

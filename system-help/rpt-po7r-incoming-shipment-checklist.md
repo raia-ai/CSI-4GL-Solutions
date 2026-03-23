@@ -9,23 +9,9 @@ long_description: Help documentation for PO7R - Incoming Shipment Checklist in t
 
 # PO7R - Incoming Shipment Checklist
 
-\[need description here and in topic properties]
-
 1. Choose Purchasing » PO Reprints » Incoming Shipment Checklist \[PO7R].
-2. Enter or select the Document number.
-
-## Output
-
-|                   |                                                                        |                      |                             |
-| ----------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading    | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Description       |                                                                        |                      |                             |
-| Ordered Qty       |                                                                        |                      |                             |
-| PO Number / Index |                                                                        |                      |                             |
-| Brand             |                                                                        |                      |                             |
-| Heat              |                                                                        |                      |                             |
-| Received Qty      |                                                                        |                      |                             |
-| PE/BE             |                                                                        |                      |                             |
-| WH/LOC            |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Document number.
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

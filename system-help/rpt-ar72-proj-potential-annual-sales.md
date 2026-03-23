@@ -15,21 +15,9 @@ This report prints the projected potential annual sales by salesperson.
 
 1. Choose Accounts Receivable » Reports » Projected/Potential Annual Sales \[AR72].
 2. Select the Salesperson code to be used for the report (by default, report includes all salespeople).
+3. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
-Sales Next Year Projected value is maintained in AR1B.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Seq            |                                                                        |                      |                             |
-| A/P            |                                                                        |                      |                             |
-| Customer       |                                                                        |                      |                             |
-| Y-T-D Sales    |                                                                        |                      |                             |
-| L-Y Sales      |                                                                        |                      |                             |
-| Variance       |                                                                        |                      |                             |
-| Projected      |                                                                        |                      |                             |
-| Potential      |                                                                        |                      |                             |
+**NOTE:** Sales Next Year Projected value is maintained in AR1B.
 
 ***
+

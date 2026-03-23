@@ -17,27 +17,4 @@ This function reprints a Bill of Lading.
 4. Enter or select a Document code.
 5. The associated Document Number (display only).
 
-## Output - needs to be generated cant get any useful information
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-
 ***

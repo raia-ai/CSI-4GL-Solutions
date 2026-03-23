@@ -12,25 +12,13 @@ long_description: Help documentation for AP7F - Accruals Aging Report in the 4GL
 This function produces an accruals aging report used to report accrual status as at certain date and to balance accrual sub-ledger to General Ledger.
 
 1. Choose Accounts Payable » AP Reports » Accruals Aging Report \[AP7F].
-2. Enter or select Buyer code (by default, all is selected).
-3. Select whether to sort by Currency code (by default, it is sorted by Vendor).
-4. Enter “Y” to filter by accruals that have zero actual value (by default, all accruals are shown).
-5. Enter blank to filter out accruals that are not equal to zero (by default, accruals with a variance are shown).
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Warehouse      |                                                                        |                      |                             |
-| Receipt        |                                                                        |                      |                             |
-| PO Num         |                                                                        |                      |                             |
-| RCT Date       |                                                                        |                      |                             |
-| Vendor Name    |                                                                        |                      |                             |
-| Buyer          |                                                                        |                      |                             |
-| Estimated      |                                                                        |                      |                             |
-| Actual         |                                                                        |                      |                             |
-| Write Off      |                                                                        |                      |                             |
-| Variance       |                                                                        |                      |                             |
+2. Enter or select Warehouse code (defaults to all warehouses).
+3. Enter or select Buyer code (by default, all is selected).
+4. Select the Aging Date to include (defaults to today's date).
+5. Select whether to sort by Currency code (by default, it is sorted by Vendor).&#x20;
+6. Enter “Y” to filter by accruals that have zero actual value (by default, all accruals are shown).
+7. Enter blank to filter out accruals that are not equal to zero (by default, accruals with a variance are shown).
+8. Select whether to produce a Detailed or Summary report.
+9. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

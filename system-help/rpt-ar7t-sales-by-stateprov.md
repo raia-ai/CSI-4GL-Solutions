@@ -11,18 +11,13 @@ long_description: Help documentation for AR7T - Sales by State/Province in the 4
 
 This report summarizes all invoices, credits and debits for the previous fiscal year and current fiscal year by customer bill-to address or the document ship-to address. It filters by salesperson if one is entered.
 
+**NOTE:** This report is only available as an Excel download.
+
 1. Choose Accounts Receivable » AR Reports » Sales By State/Province Report \[AR7T].
-2. If necessary, change the As At Date. The YTD Actual Sales in the report will include sales for the current fiscal year up to this date.
-3. In the Province Summary field, indicate if you want to summarize the report by customer **B**ill-to or document **S**hip-to address.
-4. Press Enter to generate the report.
-
-## Output
-
-|                  |                                                                        |                      |                             |
-| ---------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading   | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| State/Province   |                                                                        |                      |                             |
-| TLY Sales        |                                                                        |                      |                             |
-| YTD Actual Sales |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Select one or more Salesperson and enter the salesperson type (Inside or Outside).
+4. If necessary, change the As At Date. The YTD Actual Sales in the report will include sales for the current fiscal year up to this date.
+5. In the Province Summary field, indicate if you want to summarize the report by customer Bill-to or document Ship-to address.
+6. Press Enter to generate the report.
 
 ***

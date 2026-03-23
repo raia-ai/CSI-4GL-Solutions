@@ -12,18 +12,8 @@ long_description: "Help documentation for PO7E - Open PO By Vendor By PO\_Number
 This function is used to display open purchase orders by selected (or all) vendors for a warehouse.
 
 1. Choose Purchasing » PO Reports » Open PO By Vendor By PO Number \[PO7E].
-
-## Output
-
-|                 |                                                                        |                      |                             |
-| --------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading  | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Vnd Code        |                                                                        |                      |                             |
-| Vendor          |                                                                        |                      |                             |
-| P.O.            |                                                                        |                      |                             |
-| Local Value     |                                                                        |                      |                             |
-| Weight          |                                                                        |                      |                             |
-| Byr             |                                                                        |                      |                             |
-| Ship-To Address |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Select a Vendor.
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

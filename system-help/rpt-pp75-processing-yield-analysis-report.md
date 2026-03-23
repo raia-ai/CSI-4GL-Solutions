@@ -12,23 +12,10 @@ long_description: Help documentation for PP75 - Yield Analysis in the 4GL system
 This report shows the yield amounts for outside processing orders.
 
 1. Choose Outside Processing » OP Reports » Yield Analysis \[PP75].
-2. Enter or select Type of Entry code (defaults to all).
-3. Type Under Yield % up to 2 decimal places.
-4. Type Over Yield % up to 2 decimal places.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Doc No         |                                                                        |                      |                             |
-| Opr            |                                                                        |                      |                             |
-| Vendor         |                                                                        |                      |                             |
-| Set            |                                                                        |                      |                             |
-| Process        |                                                                        |                      |                             |
-| Consumed       |                                                                        |                      |                             |
-| Produced       |                                                                        |                      |                             |
-| Gain/Loss      |                                                                        |                      |                             |
-| %              |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select Type of Entry code (defaults to all).
+4. Type Under Yield % up to 2 decimal places.
+5. Type Over Yield % up to 2 decimal places.
+6. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

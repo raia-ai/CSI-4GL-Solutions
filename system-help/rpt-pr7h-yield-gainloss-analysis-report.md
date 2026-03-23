@@ -11,42 +11,15 @@ long_description: >-
 
 # PR7H - Yield Gain/Loss Analysis Report
 
-\[need description]
-
-This function is only available as an Excel download.
+**NOTE:** This function is only available as an Excel download.
 
 1. Choose In-House Production » In-House Production Reports » Yield Gain/Loss Analysis Report \[PR7H].
-2. Enter or select a Type code.
-3. Enter or select a Vendor code.
-4. Enter or select a Mill code.
-5. Enter or select a Product Line code.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Warehouse      |                                                                        |                      |                             |
-| Order          |                                                                        |                      |                             |
-| Document Date  |                                                                        |                      |                             |
-| Vendor         |                                                                        |                      |                             |
-| Mill           |                                                                        |                      |                             |
-| Log            |                                                                        |                      |                             |
-| Product Line   |                                                                        |                      |                             |
-| Spec 1         |                                                                        |                      |                             |
-| Spec 2         |                                                                        |                      |                             |
-| Spec 3         |                                                                        |                      |                             |
-| Spec 4         |                                                                        |                      |                             |
-| Spec 5         |                                                                        |                      |                             |
-| Spec 6         |                                                                        |                      |                             |
-| Dim 1          |                                                                        |                      |                             |
-| Dim 2          |                                                                        |                      |                             |
-| Dim 3          |                                                                        |                      |                             |
-| Dim 4          |                                                                        |                      |                             |
-| Dim 5          |                                                                        |                      |                             |
-| Raw Material   |                                                                        |                      |                             |
-| Finished Good  |                                                                        |                      |                             |
-| Gain/Loss      |                                                                        |                      |                             |
-| Yield %        |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select a Type code.
+4. Enter or select a Vendor code.
+5. Enter or select a Mill code.
+6. Enter or select a Product Line code.
+7. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+8. Press Enter to process the report.
 
 ***

@@ -13,37 +13,18 @@ long_description: >-
 
 This function is used to reprint/fax/email the MTRs for a given customer purchase order.
 
-If any logs are missing MTRs, an Excel report is generated that shows the log information and a Status column: if there is no MTR for a log, the Status column indicates “No MTR Defined”. If the MTR is invalid, the Status column indicates “MTR Not Found” and includes the filename specified in IN1E.
+**NOTE:** If any logs are missing MTRs, an Excel report is generated that shows the log information and a Status column: if there is no MTR for a log, the Status column indicates “No MTR Defined”. If the MTR is invalid, the Status column indicates “MTR Not Found” and includes the filename specified in IN1E.
 
 1. Choose Sales Order Entry » Order Entry Reprints » MTR by Cust PO/SO/Invoice \[OE7YR].
-2. If you selected a Customer:
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Customer code (defaults to ALL).
+4. If you selected a Customer:
    1. Enter the PO Number.
    2. Select the Sales Order number associated with the PO.
    3. Select the Invoice Number associated with the selected Sales Order.
-
-If you did not select a Customer, you must manually enter a Sales Order number and an Invoice Number.
-
-You do not have to enter preceding alpha or leading zeros for the Sales Order or Invoice Number fields.
-
-5. Indicate the MTR Type required: Yes (include the original MTR), Overlayed (include the original with company header overlaid), Sys (system-generated MTR from company, not mill), or Both (original and system-generated).
-6. Select where the MTRs should be printed (press F4 to choose from a list) and press Enter.
-
-## Output - cant generate output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
+5. If you did not select a Customer, you must manually enter a Sales Order number and an Invoice Number.
+6. You do not have to enter preceding alpha or leading zeros for the Sales Order or Invoice Number fields.
+7. Indicate the MTR Type required: Yes (include the original MTR), Overlayed (include the original with company header overlaid), Sys (system-generated MTR from company, not mill), or Both (original and system-generated).
+8. Select where the MTRs should be printed (press F4 to choose from a list) and press Enter.
 
 ***

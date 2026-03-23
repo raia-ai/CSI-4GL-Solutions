@@ -14,23 +14,8 @@ long_description: >-
 This report displays purchases by product line, by future months (5).
 
 1. Choose Purchasing » PO Reports » Purchasing By Product Incoming By Month \[PO7L].
-2. Enter or select Product Line (defaults to all).
-
-## Output
-
-|                     |                                                                        |                      |                             |
-| ------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading      | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Product Description |                                                                        |                      |                             |
-| 3 Mth Tot           |                                                                        |                      |                             |
-| 3 Mth Avg           |                                                                        |                      |                             |
-| Lst Mth Usg         |                                                                        |                      |                             |
-| Available           |                                                                        |                      |                             |
-| Cur Corp Inv        |                                                                        |                      |                             |
-| Min Qty Ord         |                                                                        |                      |                             |
-| LT                  |                                                                        |                      |                             |
-| Earlier             |                                                                        |                      |                             |
-|                     |                                                                        |                      |                             |
-| Later               |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select Product Line (defaults to all).
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

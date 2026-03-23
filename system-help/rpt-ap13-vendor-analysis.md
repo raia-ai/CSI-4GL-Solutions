@@ -12,16 +12,10 @@ long_description: Help documentation for AP13 - Vendor Analysis in the 4GL syste
 This report lists vendor payment information.
 
 1. Choose Account Payable » AP Reports » Vendor Analysis \[AP13].
-2. Select whether to filter by a All Vendors or enter “R” for one (by default, all vendors are selected).
-3. Enter the Starting Vendor and Ending Vendor to be included in the report.
-4. Enter or select the Effective Date.
-
-## Output - not clear output
-
-|                    |                                                                        |                      |                             |
-| ------------------ | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading     | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Vendor Address     |                                                                        |                      |                             |
-| Hold Cheque Number |                                                                        |                      |                             |
+2. Enter or select Warehouse code (defaults to all warehouses).
+3. Select whether to filter by a All Vendors or enter “R” for one (by default, all vendors are selected).
+4. Enter the Starting Vendor and Ending Vendor to be included in the report.
+5. Enter or select the Effective Date.
+6. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

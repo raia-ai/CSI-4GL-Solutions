@@ -9,36 +9,11 @@ long_description: Help documentation for PO7C - Detailed Re-Order Report in the 
 
 # PO7C - Detailed Re-Order Report
 
-\[need description]
-
 1. Choose Purchasing » PO Reports » Detailed Re-Order Report \[PO7C].
-2. Enter or select Product Lines.
-3. Enter the number of Weeks Back 1 and Weeks Back 2 to calculate the first and second sets of sales quantity.
-4. Indicate which Open Orders to display: PO, SO, Both or None.
-
-## Output
-
-|                     |                                                                        |                      |                             |
-| ------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading      | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Product Description |                                                                        |                      |                             |
-| IUM                 |                                                                        |                      |                             |
-| Available           |                                                                        |                      |                             |
-| On Hand             |                                                                        |                      |                             |
-| Commit Out          |                                                                        |                      |                             |
-| Commit In           |                                                                        |                      |                             |
-| Receipt (Last 17)   |                                                                        |                      |                             |
-| Processor (Last 17) |                                                                        |                      |                             |
-| Other (Last 17)     |                                                                        |                      |                             |
-| Receipt (Last 52)   |                                                                        |                      |                             |
-| Processor (Last 52) |                                                                        |                      |                             |
-| Other (Last 52)     |                                                                        |                      |                             |
-| Doc No              |                                                                        |                      |                             |
-| Customer            |                                                                        |                      |                             |
-| Ordered - Date      |                                                                        |                      |                             |
-| Requested - Date    |                                                                        |                      |                             |
-| Pricing Qty         |                                                                        |                      |                             |
-| Sales Price         |                                                                        |                      |                             |
-| Sales Value         |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select Product Lines.
+4. Enter the number of Weeks Back 1 and Weeks Back 2 to calculate the first and second sets of sales quantity.
+5. Indicate which Open Orders to display: PO, SO, Both or None.
+6. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

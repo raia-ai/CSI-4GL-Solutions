@@ -18,27 +18,4 @@ This function displays products available and incoming for a product or product 
 3. Enter or select Product Line code (by default, all are selected)
 4. Incoming PO? (not included in any previous documents).
 
-## Output - needs report generated
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-
 ***

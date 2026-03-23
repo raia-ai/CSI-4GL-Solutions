@@ -9,30 +9,13 @@ long_description: Help documentation for IN7YL - Inventory Turns in the 4GL syst
 
 # IN7YL - Inventory Turns
 
-\[need description here and in topic properties]
+This report is only available as an Excel download.
 
 1. Choose Inventory Control » Inventory Reports » Custom Reports » Inventory Turns Report \[IN7YL].
 2. Enter or select at least one Warehouse.
 3. Enter or select the aging Date - this must be the last day of the month.
 4. Enter the number of Months Back to include in the Target % calculation.
-5. Enter or select Drop-In PO's. \[purpose?]
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-|                |                                                                        |                      |                             |
-| QTR 1          |                                                                        |                      |                             |
-| QTR 2          |                                                                        |                      |                             |
-| QTR 3          |                                                                        |                      |                             |
-| QTR 4          |                                                                        |                      |                             |
-| YTD            |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-| QTR 1          |                                                                        |                      |                             |
-| QTR 2          |                                                                        |                      |                             |
-| QTR 3          |                                                                        |                      |                             |
-| QTR 4          |                                                                        |                      |                             |
-| YTD            |                                                                        |                      |                             |
+5. Enter or select Drop-In PO's.
+6. Press Enter to process the report.
 
 ***

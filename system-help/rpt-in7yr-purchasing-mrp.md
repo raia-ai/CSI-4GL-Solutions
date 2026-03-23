@@ -9,12 +9,15 @@ long_description: Help documentation for IN7YR - Purchasing MRP in the 4GL syste
 
 # IN7YR - Purchasing MRP
 
-The Purchasing MRP (Material Requirements Planning) report identifies inventory on hand and what materials are needed for orders in the pipeline.
+he Purchasing MRP (Material Requirements Planning) report identifies inventory on hand and what materials are needed for orders in the pipeline.
 
-You can enter order quantities and prices into the resulting spreadsheet, then run PO3E to convert it into another Excel file formatted for import into a purchase order.
+**NOTE:** This report is only available as an Excel download.
+
+**TIP:** You can enter order quantities and prices into the resulting spreadsheet, then run PO3E to convert it into another Excel file formatted for [import into a purchase order](https://4glsol.com/sm3-helpdocs/Content/Purchasing/PO_import_line_items_from_excel_PO3D.htm).
 
 1. Choose Purchasing » PO Reports » Purchasing Custom Reports » Purchasing MRP \[IN7YR].
-2. Enter or select a Product Line.\
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select a Product Line.\
    If you leave it as “All”, enter a Keyword to filter on the product description.\
    If you select a specific product line, you can further filter on individual specs (e.g. Grade, STD, Gauge, Length/Width, etc.)
 
@@ -27,11 +30,12 @@ Complete any of the remaining fields to get the type of information you require:
    MOH = On Hand Quantity / Average Usage over the period specified in the second month usage field.\
    MIP = (Available Quantity + Transfer Quantity) / Average Usage over the period specified in the second month usage field.
 5. Select the Branches (additional warehouses) to be included. The report will display the on hand quantity, the available quantity, and the commit in quantity of all the selected warehouses.
-6. The Stock/Nonstock field looks at the Buyouts only flag on a product (IN18>Warehouse): **S**tock=no B flag, **N**onstock=B flag. Select **B**oth if you don't want to filter on this flag.
+6. The Stock/Nonstock field looks at the Buyouts only flag on a product (IN18>Warehouse): Stock=no B flag, Nonstock=B flag. Select Both if you don't want to filter on this flag.
 7. In the No Sale Since field, enter the date to only see products where the last sale was prior to this date.
 8. Enter the minimum and/or maximum Age.
 9. Enter three numbers to determine Month Usage buckets (e.g. 3, 6, 12). The report will display the average sold quantity based on the selected number of months.
 10. Enter the Minimum Length or Minimum Area. These apply to on hand inventory.
+11. Press Enter to process the report.
 
 The resulting spreadsheet includes the following columns:
 

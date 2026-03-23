@@ -12,26 +12,16 @@ long_description: Help documentation for IN7Q - Zero Cost Logs in the 4GL system
 This function is used to create Zero Cost Logs report.
 
 1. Choose Inventory Control » Inventory Reports » Custom Reports » Zero Cost Logs \[IN7Q].
-2. Indicate if you want to produce the report at the **L**og or **G**rade level.
+2. Indicate if you want to produce the report at the Log or Grade level.
 3. Enter or select Product code (by default, all are selected).
-4. Leave default to show products, enter blank to hide them.
-5. Enter or select Product Line code (by default, all are selected).
-6. Enter or select Specification Type code (by default, all are selected).
-7. Enter or select Specification code (by default, all are selected; if Specification Type = “ALL” this field is skipped).
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Size           |                                                                        |                      |                             |
-| Log No         |                                                                        |                      |                             |
-| Case No        |                                                                        |                      |                             |
-| Heat No        |                                                                        |                      |                             |
-| Weight         |                                                                        |                      |                             |
-| Pieces         |                                                                        |                      |                             |
-| Invent QTY     |                                                                        |                      |                             |
-| Price          |                                                                        |                      |                             |
-| Value          |                                                                        |                      |                             |
+4. Indicate if you want to show products with inventory On Hand .Leave default to show products, enter blank to hide them.
+5. Indicate if you want to Show Program (defaults to Y).
+6. Indicate if you want to show inventory in Quarantine.
+7. Indicate if you want to Show Zero logs (logs/products with zero quantity); by default, they are not shown.
+8. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+9. Enter or select Product Line code (by default, all are selected).
+10. Enter or select Specification Type code (by default, all are selected).
+11. Enter or select Specification code (by default, all are selected; if Specification Type = “ALL” this field is skipped).
+12. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

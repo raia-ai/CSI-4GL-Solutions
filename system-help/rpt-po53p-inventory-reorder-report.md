@@ -9,32 +9,13 @@ long_description: Help documentation for PO53P - Inventory Re-Order Report in th
 
 # PO53P - Inventory Re-Order Report
 
-\[need description here and in topic properties]
-
 1. Choose Purchasing » PO Reports » Purchasing Custom Reports » Inventory Re-Order Report \[PO53P].
-2. Enter or select Product Lines and Grade.
-3. Enter the number of Months Back to use in calculating report values.
-4. Enter the Sort Parameter: Product, Turns, Quantity, M = OnHand or ICC.
-5. Indicate if you want to Show Inactive products (those with no activity in the specified date range).
-
-## Output
-
-|                     |                                                                        |                      |                             |
-| ------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading      | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Product Description |                                                                        |                      |                             |
-| IUM                 |                                                                        |                      |                             |
-| On Hand             |                                                                        |                      |                             |
-| Commit In           |                                                                        |                      |                             |
-| Commit Out          |                                                                        |                      |                             |
-| Actual              |                                                                        |                      |                             |
-| Sales Quantity      |                                                                        |                      |                             |
-| Sales Num           |                                                                        |                      |                             |
-| Usage Qty           |                                                                        |                      |                             |
-| ICC                 |                                                                        |                      |                             |
-| Avg Usage           |                                                                        |                      |                             |
-| MthOnh              |                                                                        |                      |                             |
-| Trn                 |                                                                        |                      |                             |
-| Dwos                |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select Product Lines and Grade.
+4. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+5. Enter the number of Months Back to use in calculating report values.
+6. Enter the Sort Parameter: Product, Turns, Quantity, M = OnHand or ICC.
+7. Indicate if you want to Show Inactive products (those with no activity in the specified date range).
+8. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

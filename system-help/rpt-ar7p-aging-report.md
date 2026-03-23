@@ -9,40 +9,17 @@ long_description: "Help documentation for AR7P - AR\_Aging Report - Custom in th
 
 # AR7P - AR Aging Report - Custom
 
-\[need description]
-
 1. Choose Accounts Receivable » AR Reports » AR Aging Report \[AR7P].
-2. In the Open/All Documents field, indicate if you want to include **A**ll documents or only documents in the Customer AR Credit file that have a status of Open (do not have monies applied against them).
-3. If necessary, change the number of Aging Days for each period.
-4. If you only want to include documents a certain number of days past due, enter the number of Past Due Days .
-5. Indicate if you want aging calculated by **I**nvoice or **D**ue date.
-6. Select whether to Sort By Currency, Salesperson or Territory.\
-   If you entered “S”, select the Salesperson Type to include (**I**nside or **O**utside).
-
-## Output
-
-|                 |                                                                        |                      |                             |
-| --------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading  | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Customer ID     |                                                                        |                      |                             |
-| Customer Name   |                                                                        |                      |                             |
-| Contact Phone # |                                                                        |                      |                             |
-| Avg Days to Pay |                                                                        |                      |                             |
-| Credit Limit    |                                                                        |                      |                             |
-| High Credit     |                                                                        |                      |                             |
-| Terms           |                                                                        |                      |                             |
-| Past Due        |                                                                        |                      |                             |
-| TOE             |                                                                        |                      |                             |
-| Document        |                                                                        |                      |                             |
-| Doc Date        |                                                                        |                      |                             |
-| Due Date        |                                                                        |                      |                             |
-| Original Amount |                                                                        |                      |                             |
-| Open Amount     |                                                                        |                      |                             |
-| Current         |                                                                        |                      |                             |
-| 1-30 Days       |                                                                        |                      |                             |
-| 31-60 Days      |                                                                        |                      |                             |
-| 61-90 Days      |                                                                        |                      |                             |
-| Over 90 Days    |                                                                        |                      |                             |
-| Comments        |                                                                        |                      |                             |
+2. Enter or select Warehouse code (defaults to all warehouses).
+3. Enter or select the Territory code (defaults to all).
+4. Enter or select the Customer code (defaults to ALL).
+5. In the Open/All Documents field, indicate if you want to include All documents or only documents in the Customer AR Credit file that have a status of Open (do not have monies applied against them).
+6. Select the Aging Date to include (defaults to today's date).
+7. If necessary, change the number of Aging Days for each period.
+8. If you only want to include documents a certain number of days past due, enter the number of Past Due Days .
+9. Indicate if you want aging calculated by Invoice or Due date.
+10. Select whether to Sort By Currency, Salesperson or Territory.\
+    If you entered “S”, select the Salesperson Type to include (Inside or Outside).
+11. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

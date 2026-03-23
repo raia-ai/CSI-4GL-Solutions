@@ -12,18 +12,8 @@ long_description: "Help documentation for PP78 - OP\_Bill of Lading in the 4GL s
 This function is used to reprint a bill of lading.
 
 1. Choose Outside Processing » OP Reprints » OP Bill of Lading \[PP78].
-2. Enter or select the Document code.
-
-## Output
-
-|                      |                                                                        |                      |                             |
-| -------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading       | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| No. Of Pieces        |                                                                        |                      |                             |
-| Description of Goods |                                                                        |                      |                             |
-| Weight               |                                                                        |                      |                             |
-| Class                |                                                                        |                      |                             |
-| Total No. Pieces     |                                                                        |                      |                             |
-| Total No. Bundles    |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Document code.
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

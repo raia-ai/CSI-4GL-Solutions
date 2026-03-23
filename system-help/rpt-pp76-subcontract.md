@@ -9,27 +9,12 @@ long_description: Help documentation for PP76 - Sub-Contract in the 4GL system.
 
 # PP76 - Sub-Contract
 
-\[need description here and in topic properties]
-
 Enter the original production order number.
 
 1. Choose Outside Processing » OP Reprints » Sub-Contract \[PP76].
-2. Enter or select the Type Of Entry.
-3. Enter or select the Document number.
-
-## Output
-
-|                 |                                                                        |                      |                             |
-| --------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading  | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Payment Terms   |                                                                        |                      |                             |
-| Out Ship Via    |                                                                        |                      |                             |
-| Return Ship Via |                                                                        |                      |                             |
-| Shipping Terms  |                                                                        |                      |                             |
-| Description     |                                                                        |                      |                             |
-| Pcs             |                                                                        |                      |                             |
-| Quantity        |                                                                        |                      |                             |
-| Price           |                                                                        |                      |                             |
-| Value           |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Type Of Entry.
+4. Enter or select the Document number.
+5. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

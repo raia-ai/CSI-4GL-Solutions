@@ -12,25 +12,14 @@ long_description: Help documentation for IN76 - Detailed Adjustments By Date in 
 This function is used to produce Detailed Adjustment Report by Date range, totaled by adjustment.
 
 1. Choose Inventory Control » Inventory Reports » Detailed Adjustments by Date \[IN76].
-2. If you run the report for “All” warehouses, the output depends on the setting of the “Change Report Warehouse” operator option (in MS32):
-   * If set to “A”, then the report will return results from all warehouses
-   * If set to “Y”, then the report will return results from warehouses that share the same division as the operator’s warehouse.
+2.  Enter or select Warehouse code (defaults to all warehouses).
+
+    If you run the report for “All” warehouses, the output depends on the setting of the “Change Report Warehouse” operator option (in MS32):\
+    \- If set to “A”, then the report will return results from all warehouses\
+    \- If set to “Y”, then the report will return results from warehouses that share the same division as the operator’s warehouse.
 3. Enter the Start and End dates that goods were received (both default to today's date).
 4. Indicate if you want to Include Average Cost Adjustments: enter Yes, Only average cost adjustments, or leave blank for no.
 5. Indicate if you want to Exclude Log Transfers.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Log No         |                                                                        |                      |                             |
-| Description    |                                                                        |                      |                             |
-| Heat           |                                                                        |                      |                             |
-| Weight         |                                                                        |                      |                             |
-| Pieces         |                                                                        |                      |                             |
-| Quantity       |                                                                        |                      |                             |
-| Price          |                                                                        |                      |                             |
-| Value          |                                                                        |                      |                             |
+6. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate
 
 ***

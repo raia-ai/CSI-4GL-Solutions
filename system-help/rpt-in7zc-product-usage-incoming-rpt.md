@@ -12,26 +12,11 @@ long_description: Help documentation for IN7ZC - Product Usage And Incoming in t
 This function displays product usages for last 12 months, 6 months and current available inventory as well as inbound details for product code.
 
 1. Choose Purchasing » PO Reports » Product Usage And Incoming \[IN7ZC].
-2. Enter or select Product code (by default, all are selected).
-3. Enter or select Product Line code (by default, all are selected).
-4. In the Months USG 1 and Months USG 2 fields, enter the number of months back to get the first and second sets of monthly usage numbers.
-5. Enter or select Date To (by default, today's date is selected).
-
-## Output
-
-|                        |                                                                        |                      |                             |
-| ---------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading         | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Product Description    |                                                                        |                      |                             |
-| Avg Usage 6 months     |                                                                        |                      |                             |
-| #Inv 6 Months          |                                                                        |                      |                             |
-| IUM Qty Used 6 Months  |                                                                        |                      |                             |
-| 12 Months Avg Usage    |                                                                        |                      |                             |
-| 12 Months #Inv         |                                                                        |                      |                             |
-| IUM Qty Used 12 Months |                                                                        |                      |                             |
-| IUM Qty Onhand Current |                                                                        |                      |                             |
-| IUM Qty Avail Current  |                                                                        |                      |                             |
-| Avg Cost               |                                                                        |                      |                             |
-| Incoming IUM Quantity  |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select Product code (by default, all are selected).
+4. Enter or select Product Line code (by default, all are selected).
+5. In the Months USG 1 and Months USG 2 fields, enter the number of months back to get the first and second sets of monthly usage numbers.
+6. Enter or select Date To (by default, today's date is selected).
+7. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

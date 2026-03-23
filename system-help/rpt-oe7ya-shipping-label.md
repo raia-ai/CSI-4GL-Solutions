@@ -12,25 +12,8 @@ long_description: Help documentation for OE7YA - Shipping Label in the 4GL syste
 This function is used to reprint shipping labels for invoices, branch transfers or outside processing orders.
 
 1. Choose Sales Order Entry » Order Entry Reprints » Shipping Label \[OE7YA].
-2. Enter or select the Type of Entry, then the Document number.
-3. Enter “Y” in OK to continue.
-4. Select the type of label to print.
-5. From the list of logs on the document, you can change the number of label copies or click Clear to deselect all, then click Close to print the labels.
-
-## Output - needs to be generated
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-
-***
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Type of Entry, then the Document number.
+4. Enter “Y” in OK to continue.
+5. Select the type of label to print.
+6. From the list of logs on the document, you can change the number of label copies or click Clear to deselect all, then click Close to print the labels.

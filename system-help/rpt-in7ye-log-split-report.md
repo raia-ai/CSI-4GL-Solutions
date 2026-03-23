@@ -12,28 +12,9 @@ long_description: Help documentation for IN7YE - Log Split Report in the 4GL sys
 This function is used to display log splits for a specified time period.
 
 1. Choose Inventory Control » Inventory Reports » Log Split Report \[IN7YE].
-2. Enter or select the log split Document number(s) (by default, all are selected).
-3. If you did not select a specific Document number(s), enter the Date From and Date To(both default to today's date).
-
-## Output
-
-|                  |                                                                        |                      |                             |
-| ---------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading   | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Parent Log       |                                                                        |                      |                             |
-| Produced Log     |                                                                        |                      |                             |
-| Log              |                                                                        |                      |                             |
-| Size             |                                                                        |                      |                             |
-| Pcs              |                                                                        |                      |                             |
-| IUM Qty          |                                                                        |                      |                             |
-| Location         |                                                                        |                      |                             |
-| Return           |                                                                        |                      |                             |
-| T                |                                                                        |                      |                             |
-| Factor - revalue |                                                                        |                      |                             |
-| Price Orig       |                                                                        |                      |                             |
-| Price New        |                                                                        |                      |                             |
-| Value Original   |                                                                        |                      |                             |
-| Value New        |                                                                        |                      |                             |
-| Value Deference  |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the log split Document number(s) (by default, all are selected).
+4. If you did not select a specific Document number(s), enter the Date From and Date To(both default to today's date).
+5. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

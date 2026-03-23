@@ -9,28 +9,14 @@ long_description: Help documentation for PR7D - Production Cost By Work Order in
 
 # PR7D - Production Cost By Work Order
 
-\[need description]
-
 1. Choose In-House Production » In-House Production Reports » Production Cost By Work Order \[PR7D].
-2. Enter or select Type of Entry code.
-3. Enter or select the Document Number (defaults to all).
-4. Enter Cost Factor ($/min) - \[need explanation of this field]
-5. Enter INV Status (defaults to all).\[need explanation of the three statuses]
-
-## Output
-
-|                          |                                                                        |                      |                             |
-| ------------------------ | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading           | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Seq                      |                                                                        |                      |                             |
-| Description              |                                                                        |                      |                             |
-| Weight - Invoices Qty    |                                                                        |                      |                             |
-| Inventory - Invoices Qty |                                                                        |                      |                             |
-| Material - Cost          |                                                                        |                      |                             |
-| Production - Cost        |                                                                        |                      |                             |
-| Total - Cost             |                                                                        |                      |                             |
-| Total - Revenue          |                                                                        |                      |                             |
-| Margin - Revenue         |                                                                        |                      |                             |
-| %Margin - Revenue        |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select Type of Entry code.
+4. Enter or select the Customer code (defaults to ALL).
+5. Enter or select the Document Number (defaults to all).
+6. Enter Cost Factor ($/min) -
+7. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+8. Enter INV Status (defaults to all).
+9. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

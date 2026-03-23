@@ -11,21 +11,9 @@ long_description: >-
 
 # IN7D - Inventory Totals By Product Line Group
 
-\[need description here and in topic properties]
-
 1. Choose Inventory Control » Inventory Reports » Custom Reports » Inv Totals By Product Line Group \[IN7D].
-2. Enter or select Pline group. \[Product Line group? does this need to be explained?]
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Seq            |                                                                        |                      |                             |
-| Category       |                                                                        |                      |                             |
-| Quantity       |                                                                        |                      |                             |
-| Avg Cost       |                                                                        |                      |                             |
-| Value          |                                                                        |                      |                             |
-| Percent        |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select Pline group.
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

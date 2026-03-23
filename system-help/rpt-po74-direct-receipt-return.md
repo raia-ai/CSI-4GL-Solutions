@@ -12,30 +12,11 @@ long_description: Help documentation for PO74 - Direct Receipt/Receipt Return in
 This function is used to reprint direct receipt or receipt returns.
 
 1. Choose Purchasing » PO Reprints » Direct Receipt/Receipt Return \[PO74].
-2. Select the Type of Entry code (defaults to RC-receipt).
-3. Select the range of Document numbers to include.
-4. Enter or select Vendor (defaults to all).
-5. Indicate if you want to Print Labels.
-
-## Output
-
-|                                  |                                                                        |                      |                             |
-| -------------------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading                   | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| LN #                             |                                                                        |                      |                             |
-| Remarks/Description              |                                                                        |                      |                             |
-| Local Landed Price - Price       |                                                                        |                      |                             |
-| Local Landed Price - Invent Qty  |                                                                        |                      |                             |
-| Local Landed Price - Value       |                                                                        |                      |                             |
-| Exchange Rate                    |                                                                        |                      |                             |
-| Foreign Base Price - Price       |                                                                        |                      |                             |
-| Foreign Base Price - Pricing Qty |                                                                        |                      |                             |
-| Foreign Base Price - Value       |                                                                        |                      |                             |
-| Cur                              |                                                                        |                      |                             |
-| Landed Costs Total               |                                                                        |                      |                             |
-| Vendor                           |                                                                        |                      |                             |
-| Reference                        |                                                                        |                      |                             |
-| Local                            |                                                                        |                      |                             |
-| Foreign                          |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Select the Type of Entry code (defaults to RC-receipt).
+4. Select the range of Document numbers to include.
+5. Enter or select Vendor (defaults to all).
+6. Indicate if you want to Print Labels.
+7. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

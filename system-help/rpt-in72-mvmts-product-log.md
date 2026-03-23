@@ -14,25 +14,9 @@ This function is used to produce a Movements By Product or Log report for a spec
 1. Choose Inventory Control » Inventory Reports » Movements by Product or Log \[IN72].
 2. Select whether to display Log or Product details.
 3. Enter or select the Product code (by default, all are selected).
-4. Enter or select the Type of Entry (by default, ALL are selected).
-5. Enter the From Date and To Date (To Date defaults to today's date).
-
-## Output
-
-|                     |                                                                        |                      |                             |
-| ------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading      | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Seq                 |                                                                        |                      |                             |
-| Whse                |                                                                        |                      |                             |
-| T                   |                                                                        |                      |                             |
-| Doc No              |                                                                        |                      |                             |
-| Date                |                                                                        |                      |                             |
-| Account             |                                                                        |                      |                             |
-| Product Description |                                                                        |                      |                             |
-| Weight              |                                                                        |                      |                             |
-| Pieces              |                                                                        |                      |                             |
-| Quantity            |                                                                        |                      |                             |
-| Price               |                                                                        |                      |                             |
-| Value               |                                                                        |                      |                             |
+4. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+5. Enter or select the Type of Entry (by default, ALL are selected).
+6. Enter the From Date and To Date (To Date defaults to today's date).
+7. Select how/where the report should be output (click … to choose from a list). When you press Enter the report will generate.
 
 ***

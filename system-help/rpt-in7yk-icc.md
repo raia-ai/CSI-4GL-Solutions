@@ -9,20 +9,10 @@ long_description: Help documentation for IN7YK - ICC Report in the 4GL system.
 
 # IN7YK - ICC Report
 
-\[need description here and in topic properties]
+This report is only available as an Excel download.
 
 1. Choose Purchasing » PO Reports » ICC Report \[IN7YK].
-
-## Output
-
-|                       |                                                                        |                      |                             |
-| --------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading        | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Product Line Group    |                                                                        |                      |                             |
-| Code                  |                                                                        |                      |                             |
-| Value                 |                                                                        |                      |                             |
-| % of Total            |                                                                        |                      |                             |
-| # of Items            |                                                                        |                      |                             |
-| # Items Without Stock |                                                                        |                      |                             |
+2. Enter or select Warehouse code (defaults to all warehouses).
+3. Press Enter to process the report.
 
 ***

@@ -9,20 +9,10 @@ long_description: Help documentation for PP7A - OP Pick-Up in the 4GL system.
 
 # PP7A - OP Pick-Up
 
-\[need description here and in topic properties]
-
 1. Choose Outside Processing » OP Reprints » OP Pick-Up \[PP7A].
-2. Enter or select the Type of Entry.
-3. Enter or select the Document Number.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Ln #           |                                                                        |                      |                             |
-| Buying Qty     |                                                                        |                      |                             |
-| Product        |                                                                        |                      |                             |
-| Pricing Qty    |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Type of Entry.
+4. Enter or select the Document Number.
+5. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

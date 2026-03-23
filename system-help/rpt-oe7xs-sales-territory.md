@@ -9,30 +9,10 @@ long_description: Help documentation for OE7XS - Sales By Territory in the 4GL s
 
 # OE7XS - Sales By Territory
 
-\[need description here and in topic properties]
+**NOTE:** This report is only available as an Excel download.
 
-1. Choose **Sales Order Entry » Order Entry Reports » Sales By Territory** \[OE7XS].
-2. Enter Date To (defaults to today's date). When you press Enter, the report is generated and opens in Excel.
-
-## Output
-
-|                               |                                                                        |                      |                             |
-| ----------------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading                | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Division                      |                                                                        |                      |                             |
-| Projected Sales               |                                                                        |                      |                             |
-| Previous Year Sales           |                                                                        |                      |                             |
-| Previous Year Tonnes          |                                                                        |                      |                             |
-| Previous Year Sales $ / Tonne |                                                                        |                      |                             |
-| Sales $                       |                                                                        |                      |                             |
-| Margin $                      |                                                                        |                      |                             |
-| Margin %                      |                                                                        |                      |                             |
-| Tonnes                        |                                                                        |                      |                             |
-| Sales $ / Tonnes              |                                                                        |                      |                             |
-| Sales $                       |                                                                        |                      |                             |
-| Margin $                      |                                                                        |                      |                             |
-| Margin %                      |                                                                        |                      |                             |
-| Tonnes                        |                                                                        |                      |                             |
-| Sales $ / Tonne               |                                                                        |                      |                             |
+1. Choose Sales Order Entry » Order Entry Reports » Sales By Territory \[OE7XS].
+2. Enter or select Warehouse code (defaults to all warehouses).
+3. Enter Date To (defaults to today's date). When you press Enter, the report is generated and opens in Excel.
 
 ***

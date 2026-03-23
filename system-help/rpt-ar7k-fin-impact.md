@@ -11,28 +11,13 @@ long_description: >-
 
 # AR7K - Generating a Financial Impact Report (Excel)
 
-This report lists the financial impact ($ and description) entered in the Quick Credit Note Entry (OE45A).
+This report lists the financial impact ($ and description) entered in the Quick Credit Note Entry ([OE45A](https://4glsol.com/sm3-helpdocs/Content/OrderEntry/OE_credit_memo_create.htm#QuickCreditNote)).
+
+**NOTE:** This report is only available as an Excel download.
 
 1. Choose Accounts Receivable » AR Reports » Financial Impact (Excel) \[AR7K]\
    or Sales Order Entry » Order Entry Reports » Miscellaneous & Custom Reports » Miscellaneous Reports » Credit Note Financial Impact \[AR7K].
-
-## Output
-
-|                              |                                                                        |                      |                             |
-| ---------------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading               | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Warehouse                    |                                                                        |                      |                             |
-| Document                     |                                                                        |                      |                             |
-| Invoice                      |                                                                        |                      |                             |
-| Date                         |                                                                        |                      |                             |
-| Slsmn                        |                                                                        |                      |                             |
-| Customer                     |                                                                        |                      |                             |
-| Reason Code                  |                                                                        |                      |                             |
-| Reason Description           |                                                                        |                      |                             |
-| Cost Value                   |                                                                        |                      |                             |
-| Sales Value                  |                                                                        |                      |                             |
-| Gross Profit                 |                                                                        |                      |                             |
-| Financial Impact Value       |                                                                        |                      |                             |
-| Financial Impact Description |                                                                        |                      |                             |
+2. Enter or select the Warehouse code plus _Child Warehouse_ indicator (defaults to warehouse assigned to operator).
+3. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
 
 ***

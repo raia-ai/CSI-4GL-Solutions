@@ -12,17 +12,8 @@ long_description: Help documentation for IN7V - Product Category Analysis in the
 This function produces an Inventory report summarized by product category.
 
 1. Choose Inventory Control » Inventory Reports » Custom Reports » Product Category Analysis \[IN7V].
-2. Indicate if you want to include Alloy Surcharge in base price.
-
-## Output
-
-|                  |                                                                        |                      |                             |
-| ---------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading   | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Product Category |                                                                        |                      |                             |
-| Weight Onhand    |                                                                        |                      |                             |
-| Average Cost     |                                                                        |                      |                             |
-| Base Price       |                                                                        |                      |                             |
-| Replace Cost     |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Indicate if you want to include Alloy Surcharge in base price.
+4. Select how/where the report should be output (click … to choose from a list). When you press Enter the report will generate.
 
 ***

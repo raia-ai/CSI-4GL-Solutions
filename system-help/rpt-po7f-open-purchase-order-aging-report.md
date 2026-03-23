@@ -12,18 +12,10 @@ long_description: "Help documentation for PO7F - PO\_By Vendor By Month (Val) in
 This function produces a report that displays open purchase orders by selected (or all) vendor type for a warehouse, aging $ values by expected delivery dates.
 
 1. Choose Purchasing » PO Reports » PO By Vendor By Month (Val) \[PO7F].
-2. Enter or select the Aging Date (defaults to last day of last month).
-3. Enter or select the Vendor Type (defaults to all).
-4. Enter or select one or more Product Line.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Vendor         |                                                                        |                      |                             |
-| Due            |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-| Later          |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Aging Date (defaults to last day of last month).
+4. Enter or select the Vendor Type (defaults to all).
+5. Enter or select one or more Product Line.
+6. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

@@ -13,16 +13,18 @@ This report shows inventory stock usage (including open sales orders), by produc
 
 The Available Quantity shown in the report is the on-hand minus the sum of the open quantity processed and unprocessed. Unprocessed refers to commit-out quantity that is not picked on logs yet, while any logs that are picked on the order are counted as processed and deducted from unprocessed.
 
-If you output to Excel, you can enter order quantities and prices into the resulting spreadsheet, then run PO3F to convert it into another Excel file formatted for import into a purchase order.
+**TIP:** If you output to Excel, you can enter order quantities and prices into the resulting spreadsheet, then run [PO3F](https://4glsol.com/sm3-helpdocs/Content/Purchasing/PO_convert_InvRpt_to_POImport_PO3E_PO3F.htm) to convert it into another Excel file formatted for [import into a purchase order](https://4glsol.com/sm3-helpdocs/Content/Purchasing/PO_import_line_items_from_excel_PO3D.htm).
 
 1. Choose Purchasing » PO Reports » Inventory Sales Usage Report \[IN7ZI].
-2. Enter or select the Product Line or enter “ALL” (entering “ALL” disables the spec and dimension filters).
-3. Optionally, further refine the report by entering the Grade, STD or Finish (or select “ALL”), or the Diameter or Length.
-4. Optionally enter an option to Group Compatible:
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Product Line or enter “ALL” (entering “ALL” disables the spec and dimension filters).
+4. Optionally, further refine the report by entering the Grade, STD or Finish (or select “ALL”), or the Diameter or Length.
+5. Optionally enter an option to Group Compatible:
    * L or B for long products: cut and fixed products are combined and only the fixed is shown
    * F or B for square/flat products: cut and fixed products are combined and only the fixed is shown.
    * If there are multiple fixed, the cut is combined with the first fixed product.
    * Leave blank for no grouping.
-5. Enter the Date the report should include data up to; it will include open work orders and invoices 12 months prior to this date.
+6. Enter the Date the report should include data up to; it will include open work orders and invoices 12 months prior to this date.
+7. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

@@ -11,27 +11,13 @@ long_description: Help documentation for IN7X - Excess and Overage in the 4GL sy
 
 This function produces a product excess and overage report.
 
+**NOTE:** This report is only available as an Excel download.
+
 1. Choose Inventory Control » Inventory Reports » Excess and Overage \[IN7X].
-2. Select at least one Product Line.
-3. Enter or select End Day of Month date (this defaults to the last day of current month).
-4. Indicate if you want to Include Summary. \[need definition]
-
-## Output
-
-|                     |                                                                        |                      |                             |
-| ------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading      | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Product Code        |                                                                        |                      |                             |
-| Product Description |                                                                        |                      |                             |
-| Onhand Quantity     |                                                                        |                      |                             |
-| Cost Price          |                                                                        |                      |                             |
-| Cost Value          |                                                                        |                      |                             |
-| E & O Quantity 50%  |                                                                        |                      |                             |
-| E & O Reserve 50%   |                                                                        |                      |                             |
-| E & O Quantity 90%  |                                                                        |                      |                             |
-| E & O Reserve 90%   |                                                                        |                      |                             |
-|                     |                                                                        |                      |                             |
-| Older               |                                                                        |                      |                             |
-| Last Sale           |                                                                        |                      |                             |
+2. Enter or select the Warehouse code plus _Child Warehouse_ indicator (defaults to warehouse assigned to operator).
+3. Select at least one Product Line.
+4. Enter or select End Day of Month date (this defaults to the last day of current month).
+5. Indicate if you want to Include Summary.
+6. Select how/where the report should be output (click … to choose from a list). When you press Enter the report will generate.
 
 ***

@@ -9,21 +9,9 @@ long_description: Help documentation for PP72 - OP Packing Slip in the 4GL syste
 
 # PP72 - OP Packing Slip
 
-\[need description here and in topic properties]
-
 1. Choose Outside Processing » OP Reprints » OP Packing Slip\[PP72].
-2. Enter or select the Document Number.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Ln             |                                                                        |                      |                             |
-| Description    |                                                                        |                      |                             |
-| Bundle #       |                                                                        |                      |                             |
-| Heat #         |                                                                        |                      |                             |
-| Qty Shipped    |                                                                        |                      |                             |
-| Pcs Shipped    |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Document Number.
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

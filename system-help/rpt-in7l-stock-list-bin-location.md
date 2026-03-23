@@ -13,33 +13,15 @@ This function produces an Inventory Stock List by bin location.
 
 1. Choose Inventory » Inventory Reports » Stock List by Bin Locations \[IN7L].
 2. Enter or select Product code (defaults to all).
-3. Enter “Y” for yes or blank for no.
-4. Enter or select Product Line (defaults to all).
-5. Enter or select Spec Type (defaults to all).
-6. Enter or select Specification code (defaults to all).
-7. Select Bin From and To location; Kasto, Floor Stock (default), Quarantine Stock, Program Stock, Other, and enter or select From/To Warehouse Bin location (by default, all bin locations are selected).
-8. Indicate if you want to Show Value \[definition?].
-9. Indicate if you want to sort by Product or by Bin location).
-
-## Output
-
-|                         |                                                                        |                      |                             |
-| ----------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading          | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Description             |                                                                        |                      |                             |
-| Log No                  |                                                                        |                      |                             |
-| Bin Loc                 |                                                                        |                      |                             |
-| Case                    |                                                                        |                      |                             |
-| Available Heat No       |                                                                        |                      |                             |
-| Available Pieces        |                                                                        |                      |                             |
-| Available Inventory Qty |                                                                        |                      |                             |
-| On Hand Inventory Qty   |                                                                        |                      |                             |
-| On Hand Weight          |                                                                        |                      |                             |
-| On Hand Pieces          |                                                                        |                      |                             |
-| On Hand Inventory Qty   |                                                                        |                      |                             |
-| On Hand Price           |                                                                        |                      |                             |
-| On Hand V               |                                                                        |                      |                             |
-|                         |                                                                        |                      |                             |
-|                         |                                                                        |                      |                             |
+3. Indicate if you want to show products with inventory On Hand . Enter “Y” for yes or blank for no.
+4. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+5. Enter or select Product Line (defaults to all).
+6. Enter or select Spec Type (defaults to all).
+7. Enter or select Specification code (defaults to all).
+8. Select Bin From and To location; Kasto, Floor Stock (default), Quarantine Stock, Program Stock, Other, and enter or select From/To Warehouse Bin location (by default, all bin locations are selected).
+9. Indicate if you want to Show Zero logs (logs/products with zero quantity); by default, they are not shown.
+10. Indicate if you want to Show Value.
+11. Indicate if you want to sort by Product or by Bin location).
+12. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

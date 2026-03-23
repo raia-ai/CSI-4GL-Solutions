@@ -9,31 +9,14 @@ long_description: Help documentation for IN7YA - Chemical Properties by Heat in 
 
 # IN7YA - Chemical Properties by Heat
 
-This function is used to display chemical properties \[xref to IN10W] by heat number.
+This function is used to display chemical properties by heat number.
+
+This report is only available as an Excel download.
 
 1. Choose Inventory Control » Inventory Reports » Chemical Properties by Heat \[IN7YA].
-2. Enter or select the Product code.
-3. Enter or select the Product Line code.
-
-## Output
-
-|                                |                                                                        |                      |                             |
-| ------------------------------ | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading                 | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Heat                           |                                                                        |                      |                             |
-| Product Description            |                                                                        |                      |                             |
-| Mill Code                      |                                                                        |                      |                             |
-| Avg Elongation - Onhand Logs   |                                                                        |                      |                             |
-| Avg Yld Strength - Onhand Logs |                                                                        |                      |                             |
-| Avg Tensile - Onhand Logs      |                                                                        |                      |                             |
-| Avg ROA - Onhand Logs          |                                                                        |                      |                             |
-| Avg Hardness - Onhand Logs     |                                                                        |                      |                             |
-| Avg Grain Size - Onhand Logs   |                                                                        |                      |                             |
-| Avg Elongation - All Logs      |                                                                        |                      |                             |
-| Avg Yld Strength - All Logs    |                                                                        |                      |                             |
-| Avg Tensile - All Logs         |                                                                        |                      |                             |
-| Avg ROA - ALL Logs             |                                                                        |                      |                             |
-| Avg Hardness - All Logs        |                                                                        |                      |                             |
-| Avg Grain Size - All Logs      |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Product code.
+4. Enter or select the Product Line code.
+5. Press Enter to process the report.
 
 ***

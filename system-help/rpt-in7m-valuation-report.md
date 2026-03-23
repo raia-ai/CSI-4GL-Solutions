@@ -9,25 +9,11 @@ long_description: Help documentation for IN7M - Inventory Valuation in the 4GL s
 
 # IN7M - Inventory Valuation
 
-This function produces an Inventory Valuation report. \[need better description here and in topic properties]
+This function produces an Inventory Valuation report.
 
 1. Choose Inventory Control » Inventory Reports » Custom Reports » Inventory Valuation \[IN7M].
-2. Enter or select Product Line (by default, all product lines are selected).
-
-## Output
-
-|                          |                                                                        |                      |                             |
-| ------------------------ | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading           | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Product                  |                                                                        |                      |                             |
-| Onhand                   |                                                                        |                      |                             |
-| Price                    |                                                                        |                      |                             |
-| Value                    |                                                                        |                      |                             |
-| Received Quantity Year 1 |                                                                        |                      |                             |
-| Received Quantity Year 2 |                                                                        |                      |                             |
-| Revalued Quantity 100%   |                                                                        |                      |                             |
-| Revalued Quantity 50%    |                                                                        |                      |                             |
-| Revalued Quantity 0%     |                                                                        |                      |                             |
-| New                      |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select Product Line (by default, all product lines are selected).
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

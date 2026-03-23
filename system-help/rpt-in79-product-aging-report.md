@@ -12,20 +12,8 @@ long_description: Help documentation for IN79 - Product Aging in the 4GL system.
 This function is used to create Inventory Stock list by Age Date (date product was received) of product, with subtotals by product line.
 
 1. Choose Inventory Control » Inventory Reports » Product Aging \[IN79].
-2. If necessary, change the number of days for the First, Second, Third, and Fourth aging periods (these default to 30/60/90/120 respectively).
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Product        |                                                                        |                      |                             |
-| Warehouse      |                                                                        |                      |                             |
-| IUM            |                                                                        |                      |                             |
-| On-Hand Tot    |                                                                        |                      |                             |
-| 0-30 Days      |                                                                        |                      |                             |
-| 31-60 Days     |                                                                        |                      |                             |
-| 91-120 Days    |                                                                        |                      |                             |
-| Over 120 Days  |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. If necessary, change the number of days for the First, Second, Third, and Fourth aging periods (these default to 30/60/90/120 respectively).
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

@@ -11,18 +11,9 @@ long_description: >-
 
 # IN7CA - Reprint Log and Location Label
 
-\[need description here and in topic properties]
-
 1. Choose Inventory Control » Inventory Reprints » Reprint Log & Location Label \[IN7CA].
-2. Enter or select the Log Number.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Seq            |                                                                        |                      |                             |
-| Label Type     |                                                                        |                      |                             |
-| Num            |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Log Number.
+4. Press Enter to process the report.
 
 ***

@@ -12,20 +12,7 @@ long_description: Help documentation for IN7G - Logs With No MTR Attached in the
 This function produces logs with no MTR files attached (in log details). Should be run periodically by your quality control department or just prior to a physical inventory count.
 
 1. Choose Inventory Control » Inventory Reports » Custom Reports » Logs With No MTR Attached \[IN7G].
-
-## Output
-
-|                   |                                                                        |                      |                             |
-| ----------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading    | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Warehouse         |                                                                        |                      |                             |
-| P/O Number        |                                                                        |                      |                             |
-| Doc Number        |                                                                        |                      |                             |
-| Log               |                                                                        |                      |                             |
-| Description       |                                                                        |                      |                             |
-| Heat              |                                                                        |                      |                             |
-| Case              |                                                                        |                      |                             |
-| On-hand Quantity  |                                                                        |                      |                             |
-| Original Quantity |                                                                        |                      |                             |
+2. Enter or select Warehouse code (defaults to all warehouses).
+3. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

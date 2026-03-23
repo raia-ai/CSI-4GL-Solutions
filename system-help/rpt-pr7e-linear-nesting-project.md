@@ -11,40 +11,10 @@ long_description: >-
 
 # PR7E - Linear Nesting Project Reprint
 
-\[need description]
-
 1. Choose In-House Production » In-House Production Reprints » Linear Nesting Project Reprint\
    or Inventory Control » Inventory Reprints » Linear Nesting Project Reprint \[PR7E].
-2. Enter or select the Project Number.
-
-## Output
-
-|                  |                                                                        |                      |                             |
-| ---------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading   | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Seq              |                                                                        |                      |                             |
-| TP               |                                                                        |                      |                             |
-| DocNum           |                                                                        |                      |                             |
-| Bill-To-Cust     |                                                                        |                      |                             |
-| Indx             |                                                                        |                      |                             |
-| Size Description |                                                                        |                      |                             |
-| OrdPcs           |                                                                        |                      |                             |
-| PckPcs           |                                                                        |                      |                             |
-| Seq              |                                                                        |                      |                             |
-| LogNum           |                                                                        |                      |                             |
-| Heat Number      |                                                                        |                      |                             |
-| Bin Loc          |                                                                        |                      |                             |
-| Size Description |                                                                        |                      |                             |
-| Variable Spec    |                                                                        |                      |                             |
-| AvlPcs           |                                                                        |                      |                             |
-| PckPcs           |                                                                        |                      |                             |
-| Pcs - From       |                                                                        |                      |                             |
-| LogNum - From    |                                                                        |                      |                             |
-| Cuts - Cut       |                                                                        |                      |                             |
-| DocNum - Cut     |                                                                        |                      |                             |
-| Indx - Cut       |                                                                        |                      |                             |
-| Pcs - Yeild      |                                                                        |                      |                             |
-| Pcs - Drop       |                                                                        |                      |                             |
-| Scrap % - Drop   |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Project Number.
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

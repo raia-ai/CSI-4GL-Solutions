@@ -13,18 +13,23 @@ long_description: >-
 
 This function produces customer statements for multiple customers at the same time. For each customer, you define if the statement will be sent by fax, email, both, or print a hard copy.
 
-This function sends the statement to the fax/email defined at the customer level. If you want to send the statement to customer contacts who have statement delivery options defined, use AR7V.
+**NOTE:** This function sends the statement to the fax/email defined at the customer level. If you want to send the statement to customer contacts who have statement delivery options defined, use AR7V.
 
 1. Choose Accounts Receivable » AR Reports » Customer Statements Fax/Email \[AR7E].
-2. Enter or select the Customer category (defaults to all).
-3. To restrict the report to a single salesperson, select a Salesperson code (by default, the report includes data related to all sales people).
-4. To ensure that a statement is printed for any customers who are not set up for fax or email, select the Default Print check box.
-5. To only produce statements for customers who have requested them (as stored in the customer file)1, set Request Only? to “Y”. By default, a statement is produced for all customers.
-6. By default, only **O**pen documents (that is, do not have monies applied against them) are included. To include all documents, select **ALL**; you can then enter a from date to see all transactions on or after that date.
-7. Indicate
-8. In the Invoice or Due Date field, specify whether to age data by Invoice date or Due date.
-9. Indicate if you want to Show Avg Days to Pay for the customer.
-10. Indicate if you want to Show the AR Contacts.
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Customer category (defaults to all).
+4. Enter or select the Territory code (defaults to all).
+5. To restrict the report to a single salesperson, select a Salesperson code (by default, the report includes data related to all sales people).
+6. To ensure that a statement is printed for any customers who are not set up for fax or email, select the Default Print check box.
+7. To only produce statements for customers who have requested them (as stored in the customer file)<sup>1</sup>, set Request Only? to “Y”. By default, a statement is produced for all customers.
+8. By default, only Open documents (that is, do not have monies applied against them) are included. To include all documents, select ALL; you can then enter a from date to see all transactions on or after that date.
+9. Select the Aging Date to include (defaults to today's date).
+10. Enter or select Fiscal Period.
+11. Indicate the currency type: Functional (currency assigned to warehouse) or Source (customer’s currency).
+12. In the Invoice or Due Date field, specify whether to age data by Invoice date or Due date.
+13. Indicate if you want to Show Avg Days to Pay for the customer.
+14. Indicate if you want to Show the AR Contacts.
+15. Enter the number of Past Due Days a document must be in order to be included in the report (by default, all documents are included).
 
 Customers will be included in the report even if they have no documents past due in the specified amount of days. However, such customers will not receive a statement by email or fax.
 

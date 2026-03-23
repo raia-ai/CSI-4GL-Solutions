@@ -13,27 +13,15 @@ long_description: >-
 
 Report displaying usage values by machine.
 
-This report displays machine revenue; for machine costs, use PR7C.
+This report displays machine revenue; for machine costs, use [PR7C](https://4glsol.com/sm3-helpdocs/Content/Reports/rpt_pr7c_Inhouse_Prd_Mach_Analysis_Report.htm).
 
 1. Choose In-House Production » In-House Production Reports » Production Estimated Vs Actual Time \[PR7G].
-2. Enter or select the Machine code (defaults to all).
-3. Enter Estimated Time code: Cost or Revenue.
-4. Enter “Y” to sort by Complete only or leave blank to not.
-
-## Output
-
-|                     |                                                                        |                      |                             |
-| ------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading      | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Doc No              |                                                                        |                      |                             |
-| Doc Date            |                                                                        |                      |                             |
-| Customer            |                                                                        |                      |                             |
-| Product Description |                                                                        |                      |                             |
-| IUM Qty Ord         |                                                                        |                      |                             |
-| Pcs Ord C           |                                                                        |                      |                             |
-| Estimated - Time    |                                                                        |                      |                             |
-| Actual - Time       |                                                                        |                      |                             |
-| Variance - Time     |                                                                        |                      |                             |
-| Var %               |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Customer code (defaults to ALL).
+4. Enter or select the Machine code (defaults to all).
+5. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+6. Enter Estimated Time code: Cost or Revenue.
+7. Enter “Y” to sort by Complete only or leave blank to not.
+8. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

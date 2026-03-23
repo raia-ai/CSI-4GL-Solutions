@@ -12,22 +12,10 @@ long_description: Help documentation for AP75 - Vendor Invoice Listing in the 4G
 This function produces a Vendor Invoice report.
 
 1. Choose Accounts Payable » AP Reports » Vendor Invoice Listing \[AP75].
-2. Filter to create Summary or Detailed report.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Invoice Ref    |                                                                        |                      |                             |
-| Fisc           |                                                                        |                      |                             |
-| Stat           |                                                                        |                      |                             |
-| Vendor         |                                                                        |                      |                             |
-| Invoice        |                                                                        |                      |                             |
-| Eff Date       |                                                                        |                      |                             |
-| INV Date       |                                                                        |                      |                             |
-| Check #        |                                                                        |                      |                             |
-| Foreign        |                                                                        |                      |                             |
-| Local          |                                                                        |                      |                             |
+2. Enter or select Warehouse code (defaults to all warehouses).
+3. Select a Vendor.
+4. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+5. Filter to create Summary or Detailed report.
+6. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

@@ -11,24 +11,10 @@ long_description: Help documentation for AR7M - Analyzing Customer Credit in the
 
 This function is used to export credit limit analysis.
 
+**NOTE:** This report is only available as an Excel download.
+
 1. Choose Accounts Receivable » AR Reports » Customer Credit Analysis \[AR7M].
-
-## Output
-
-|                        |                                                                        |                      |                             |
-| ---------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading         | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Customer Name          |                                                                        |                      |                             |
-| Customer Since Date    |                                                                        |                      |                             |
-| Customer Type          |                                                                        |                      |                             |
-| High Credit Balance    |                                                                        |                      |                             |
-| Current Credit Limit   |                                                                        |                      |                             |
-| Max Limit M1 Customers |                                                                        |                      |                             |
-| Change to M1 Limits    |                                                                        |                      |                             |
-| Average Days To Pay    |                                                                        |                      |                             |
-| Credit Check Expires   |                                                                        |                      |                             |
-| Last Sale Date         |                                                                        |                      |                             |
-| Credit Terms           |                                                                        |                      |                             |
-| Customer ID            |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Press Enter to process the report.
 
 ***

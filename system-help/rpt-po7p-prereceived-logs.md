@@ -9,33 +9,14 @@ long_description: Help documentation for PO7P - Pre-Received Logs in the 4GL sys
 
 # PO7P - Pre-Received Logs
 
-\[need description]
+This report is only available as an Excel download.
 
 1. Choose Purchasing » PO Reports » Pre-Recevied Logs \[PO7P].
-2. Enter or select Vendor code (defaults to all).
-3. Select the Log Status to include: Received, Pre-received, or Both.
-4. Indicate if you want to Show log Value .
-
-## Output
-
-|                  |                                                                        |                      |                             |
-| ---------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading   | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Warehouse        |                                                                        |                      |                             |
-| Receipt #        |                                                                        |                      |                             |
-| Receipt Date     |                                                                        |                      |                             |
-| Vendor           |                                                                        |                      |                             |
-| Supplier Ref     |                                                                        |                      |                             |
-| Vessel           |                                                                        |                      |                             |
-| Container        |                                                                        |                      |                             |
-| Log              |                                                                        |                      |                             |
-| Description      |                                                                        |                      |                             |
-| Heat #           |                                                                        |                      |                             |
-| Case             |                                                                        |                      |                             |
-| Bin              |                                                                        |                      |                             |
-| Qty              |                                                                        |                      |                             |
-| Pcs              |                                                                        |                      |                             |
-| Status           |                                                                        |                      |                             |
-| Shipment Remarks |                                                                        |                      |                             |
+2. Enter or select the Warehouse code plus _Child Warehouse_ indicator (defaults to warehouse assigned to operator).
+3. Enter or select Vendor code (defaults to all).
+4. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+5. Select the Log Status to include: Received, Pre-received, or Both.
+6. Indicate if you want to Show log Value .
+7. Press Enter to process the report.
 
 ***

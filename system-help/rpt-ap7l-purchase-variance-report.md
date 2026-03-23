@@ -9,35 +9,13 @@ long_description: Help documentation for AP7L - Purchase Variance Report in the 
 
 # AP7L - Purchase Variance Report
 
-This function could use a description.
-
-This function is available as an Excel download only.
+**NOTE:** This function is available as an Excel download only.
 
 1. Choose Accounts Payable » AP Reports » Purchase Variance Report \[AP7L].
-2. Enter or select Vendor code (defaults to all).
-3. Enter or select Min Var. need info.
-
-## Output
-
-|                  |                                                                        |                      |                             |
-| ---------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading   | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Warehouse        |                                                                        |                      |                             |
-| Vendor           |                                                                        |                      |                             |
-| Receipt          |                                                                        |                      |                             |
-| Receipt Line #   |                                                                        |                      |                             |
-| Product          |                                                                        |                      |                             |
-| Receipt Cost     |                                                                        |                      |                             |
-| Receipt Quantity |                                                                        |                      |                             |
-| PUM              |                                                                        |                      |                             |
-| Receipt Price    |                                                                        |                      |                             |
-| Receipt Value    |                                                                        |                      |                             |
-| Voucher          |                                                                        |                      |                             |
-| Effective Date   |                                                                        |                      |                             |
-| Invoice Number   |                                                                        |                      |                             |
-| PO #             |                                                                        |                      |                             |
-| Buyer            |                                                                        |                      |                             |
-| Reference #      |                                                                        |                      |                             |
-| Variance Value   |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select Vendor code (defaults to all).
+4. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+5. Enter or select Min Var. .
+6. Press Enter to process the report.
 
 ***

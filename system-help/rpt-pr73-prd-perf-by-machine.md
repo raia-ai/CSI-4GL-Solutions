@@ -12,19 +12,9 @@ long_description: Help documentation for PR73 - Production Analysis Report in th
 This function prints a report on machine production performance, sorted by machine code.
 
 1. Choose In-House Production » In-House Production Reports » Production Analysis Report \[PR73].
-2. Enter or select Machine Code (by default, all are selected).
-3. Enter or select Date From and Date To (by default, both are today's date).
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Doc Num        |                                                                        |                      |                             |
-| Date           |                                                                        |                      |                             |
-| Process Type   |                                                                        |                      |                             |
-| Weight         |                                                                        |                      |                             |
-| Price          |                                                                        |                      |                             |
-| Value          |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select Machine Code (by default, all are selected).
+4. Enter or select Date From and Date To (by default, both are today's date).
+5. Select how/where the report should be output (click … to choose from a list). When you press Enter the report will generate.
 
 ***

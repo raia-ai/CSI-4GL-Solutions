@@ -14,22 +14,7 @@ long_description: >-
 This function produces Active (on-hand quantity > 0) with original receipts, adjustments and all other documents which can add inventory, sorted by log number.
 
 1. Choose Inventory Control » Inventory Reports » Custom Reports » Active Logs With Original Receipts. \[IN7F].
-
-## Output
-
-|                   |                                                                        |                      |                             |
-| ----------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading    | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Warehouse         |                                                                        |                      |                             |
-| Log               |                                                                        |                      |                             |
-| Doc Num           |                                                                        |                      |                             |
-| P/O Num           |                                                                        |                      |                             |
-| Description       |                                                                        |                      |                             |
-| Heat              |                                                                        |                      |                             |
-| Case              |                                                                        |                      |                             |
-| Onhand Quantity   |                                                                        |                      |                             |
-| Onhand Pieces     |                                                                        |                      |                             |
-| Original Quantity |                                                                        |                      |                             |
-| Original Pieces   |                                                                        |                      |                             |
+2. Enter or select Warehouse code (defaults to all warehouses).
+3. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***

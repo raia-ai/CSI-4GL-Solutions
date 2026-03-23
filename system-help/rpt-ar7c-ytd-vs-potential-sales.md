@@ -14,27 +14,14 @@ long_description: >-
 This report contains year-to-date sales, potential sales for all customers, and a percent difference between the two.
 
 1. Choose Accounts Receivable » Reports » Y-T-D vs. Potential Sales Comparison \[AR7C].
-2. Enter the starting Date for transactions to include in the report (by default, today's date is used).
-3. Indicate if you want to sort order by Customer name, Target Percent Difference or Actual **S**ales.
-4. Indicate if you want to show Target percent values only.
-5. Indicate if you want to Include Inactive customers.
-6. Indicate if you want the province summary to be based on the Ship To or the Bill To address.
-
-## Output
-
-|                 |                                                                        |                      |                             |
-| --------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading  | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Customer        |                                                                        |                      |                             |
-| Location        |                                                                        |                      |                             |
-| Cust No         |                                                                        |                      |                             |
-| Rep             |                                                                        |                      |                             |
-| Warehouse       |                                                                        |                      |                             |
-| Pln             |                                                                        |                      |                             |
-| L-Y Lbs         |                                                                        |                      |                             |
-| Annual Forecast |                                                                        |                      |                             |
-| Y-T-D Actual    |                                                                        |                      |                             |
-| Y-T-D Forecast  |                                                                        |                      |                             |
-| Target %        |                                                                        |                      |                             |
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select Salesperson code.
+4. Enter the starting Date for transactions to include in the report (by default, today's date is used).
+5. Indicate if you want to sort order by Customer name, Target Percent Difference or Actual Sales.
+6. Select whether to produce a Detailed or Summary report.
+7. Indicate if you want to show Target percent values only.
+8. Indicate if you want to Include Inactive customers.
+9. Indicate if you want the province summary to be based on the Ship To or the Bill To address.
+10. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
 ***
