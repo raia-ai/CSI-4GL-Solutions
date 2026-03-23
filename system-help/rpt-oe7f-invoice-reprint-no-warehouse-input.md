@@ -14,19 +14,6 @@ This function reprints/faxes/emails a range of invoices.
 1. Choose Sales Order Entry » Order Entry Reprints » Invoice - No Warehouse Input \[OE7F].
 2. Select the Type of Entry: BI=branch invoice, BT=branch transfer, CM=credit memo, DM=debit memo, IV=sales invoice, TO=inventory transfer out.
 3. Select the range of Document numbers to print.
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Ln             |                                                                        |                      |                             |
-| Back Ordered   |                                                                        |                      |                             |
-| Ordered        |                                                                        |                      |                             |
-| Unit           |                                                                        |                      |                             |
-| Description    |                                                                        |                      |                             |
-| Shipped        |                                                                        |                      |                             |
-| Unit Price     |                                                                        |                      |                             |
-| Value          |                                                                        |                      |                             |
-
-***
+<br>

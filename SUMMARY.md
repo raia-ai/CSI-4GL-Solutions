@@ -561,7 +561,7 @@
   * [OE73 - Delivery Note](system-help/rpt-oe73-delivery-note.md)
   * [OE74 - Invoice Summary By Document](system-help/rpt-oe74-invoice-sum-by-document.md)
   * [OE75 - Invoice/Credit or Debit Note](system-help/rpt-oe75-invoice-crdr-memo.md)
-  * [OE76 - Credit/Debit Memo Authorization](system-help/rpt-oe76-crdr-memo-authorization-reprint.md)
+  * [OE76 - Credit/Debit Memo AuthorizationYe](system-help/rpt-oe76-crdr-memo-authorization-reprint.md)
   * [OE77 - Sales Order/Quote Report](system-help/rpt-oe77-sales-order-quote-report.md)
   * [OE79 - Sales by Customer by Month](system-help/rpt-oe79-monthly-sales.md)
   * [OE7A - Sales By Salesperson By Customer By Product Line](system-help/rpt-oe7a-by-customer-by-product-line.md)

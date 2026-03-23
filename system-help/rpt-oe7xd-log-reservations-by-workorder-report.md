@@ -13,19 +13,10 @@ long_description: >-
 
 This function generates a report listing open sales orders including product codes (displaying log detail), sorted by customer.
 
-1. Choose Sales Order Entry » Order Entry Reports » Misc & Custom Reports » Custom Reports » Log Reservations By Workorder \[OE7XD]. \[should be renamed “...By Sales Order”]
-2. Enter or select the Product code and Product Line code (default to all).
-3. Enter or select Customer number (defaults to all).
+1. Choose Sales Order Entry » Order Entry Reports » Misc & Custom Reports » Custom Reports » Log Reservations By Workorder \[OE7XD].
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Product code and Product Line code (default to all).
+4. Enter or select Customer number (defaults to all).
+5. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
-## Output
-
-|                     |                                                                        |                      |                             |
-| ------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading      | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Customer PO         |                                                                        |                      |                             |
-| Doc No              |                                                                        |                      |                             |
-| Req Date            |                                                                        |                      |                             |
-| Product Description |                                                                        |                      |                             |
-| Sales Price         |                                                                        |                      |                             |
-
-***
+<br>

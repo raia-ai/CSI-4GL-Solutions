@@ -12,7 +12,13 @@ long_description: Help documentation for OE72B - Master Picklist Reprint in the 
 This function reprints pick slips for all open sales order lines in PCK or PBP status that have the selected delivery date. Pick slips will print by sales order number.
 
 1. Choose Sales Order Entry » Order Entry Reprints » Master Picklist Reprint \[OE72B].
-2. Enter or select the Document Number you want to reprint the pick lists for, or enter “ALL”.
-3. Enter or select the Delivery Date for which you want to reprint pick lists.
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Document Number you want to reprint the pick lists for, or enter “ALL”.
+4. Enter or select the Delivery Date for which you want to reprint pick lists.
+5. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
-***
+Related Topics
+
+OE72 - Picklist
+
+OE72A - Picklist Reprint by Manifest Run

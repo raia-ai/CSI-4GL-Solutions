@@ -11,25 +11,10 @@ long_description: >-
 
 # OE7AC - By Product Within Dimension Range
 
-\[need description here and in topic properties]
-
 1. Choose Sales Order Entry » Order Entry Reports » By Product Within Dimension Range \[OE7AC].
-2. Enter or select Product Line code.
-3. Enter or select the specifications and dimensions to limit the report to; these vary depending on the product line selected.
-4. Indicate if you want a Detailed report or leave blank for a summary.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Product        |                                                                        |                      |                             |
-| Weight         |                                                                        |                      |                             |
-| IUM            |                                                                        |                      |                             |
-| Cost Value     |                                                                        |                      |                             |
-| Avg Price      |                                                                        |                      |                             |
-| Sales Value    |                                                                        |                      |                             |
-| Margin         |                                                                        |                      |                             |
-| Margin %       |                                                                        |                      |                             |
-
-***
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select Product Line code.
+4. Enter or select the specifications and dimensions to limit the report to; these vary depending on the product line selected.
+5. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+6. Indicate if you want a Detailed report or leave blank for a summary.
+7. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.Ye

@@ -9,25 +9,7 @@ long_description: "Help documentation for OE7H\_- Daily Booking Summary Report i
 
 # OE7H - Daily Booking Summary Report
 
-\[need description]
-
 1. Choose Sales Order Entry » Order Entry Reports » Daily Booking Summary \[OE7HA].
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Warehouse      |                                                                        |                      |                             |
-| Date           |                                                                        |                      |                             |
-| Ord            |                                                                        |                      |                             |
-| #Inv Ln        |                                                                        |                      |                             |
-| Stn Bar - LBS  |                                                                        |                      |                             |
-| Stn Tube - LBS |                                                                        |                      |                             |
-| Aluminum - LBS |                                                                        |                      |                             |
-| Value          |                                                                        |                      |                             |
-| Extras         |                                                                        |                      |                             |
-| G.P.           |                                                                        |                      |                             |
-| % G.P.         |                                                                        |                      |                             |
-
-***
+2. Enter or select the Warehouse code plus _Child Warehouse_ indicator (defaults to warehouse assigned to operator).
+3. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.

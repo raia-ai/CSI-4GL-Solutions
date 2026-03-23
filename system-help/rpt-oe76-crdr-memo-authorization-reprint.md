@@ -9,27 +9,11 @@ long_description: >-
   system.
 ---
 
-# OE76 - Credit/Debit Memo Authorization
+# OE76 - Credit/Debit Memo AuthorizationYe
 
 This function is used to reprint a credit or debit memo authorization, and is valid only if Credit/Debit memo authorization is required.
 
 1. Choose Sales Order Entry » Order Entry Reports » Misc & Custom Reports » Misc Reports » Credit/Debit Memo Authorization \[OE76].
-2. Select the Type of Entry, then enter or select the Document number.
-
-## Output
-
-|                 |                                                                        |                      |                             |
-| --------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading  | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Ln #            |                                                                        |                      |                             |
-| T               |                                                                        |                      |                             |
-| Ref             |                                                                        |                      |                             |
-| Product/Remarks |                                                                        |                      |                             |
-| Rsn             |                                                                        |                      |                             |
-| Weight          |                                                                        |                      |                             |
-| Selling Qty     |                                                                        |                      |                             |
-| Pricing Qty     |                                                                        |                      |                             |
-| Sales Price     |                                                                        |                      |                             |
-| Sales Value     |                                                                        |                      |                             |
-
-***
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Select the Type of Entry, then enter or select the Document number.
+4. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.

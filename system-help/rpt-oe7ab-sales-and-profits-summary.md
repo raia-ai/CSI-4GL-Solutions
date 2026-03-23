@@ -14,26 +14,9 @@ long_description: >-
 This report shows sales and profits by salespeople, allowing for input of From/To Date range for customers.
 
 1. Choose Sales Order Entry » Order Entry Reports » Misc & Custom Reports » Custom Reports » Sales and Profits By Slsprsn Summ \[OE7AB].
-2. Indicate whether to group the report by Inside or Outside salesperson.
-3. In the Customer Salesperson field, enter “Y” to use the salesperson on the customer file, or leave blank to use the salesperson on the invoices.
-4. Enter or select a Salesperson or “ALL”.
-
-## Output - Cant find the output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-|                |                                                                        |                      |                             |
-
-***
+2. Enter or select the Warehouse code plus _Child Warehouse_ indicator (defaults to warehouse assigned to operator).
+3. Indicate whether to group the report by Inside or Outside salesperson.
+4. In the Customer Salesperson field, enter “Y” to use the salesperson on the customer file, or leave blank to use the salesperson on the invoices.
+5. Enter or select a Salesperson or “ALL”.
+6. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+7. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.

@@ -11,25 +11,11 @@ long_description: >-
 
 # OE7XB - Outside Salesperson Commission
 
-This function is used to print an outside salesperson commission report for invoices paid within a date range for invoices processed on screen OE4J \[xref]. For a report listing commission accruals (invoice with commission, not yet paid) see report OE7XE \[this is in Misc menu so not documented].
+This function is used to print an outside salesperson commission report for invoices within a date range for invoices processed on screen OE4J.
 
 1. Choose Sales Order Entry » Order Entry Reports » Misc & Custom Reports » Misc Reports » Outside Salesperson Commission \[OE7XB].
-2. Enter or select Salesperson code (defaults to all).
-3. Indicate if you want to use the salesperson on the customer file; leave blank to use the salesperson on the invoices.
-
-## Output
-
-|                |                                                                        |                      |                             |
-| -------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Doc No         |                                                                        |                      |                             |
-| Invoice Date   |                                                                        |                      |                             |
-| Customer       |                                                                        |                      |                             |
-| Invoice Amount |                                                                        |                      |                             |
-| Profit         |                                                                        |                      |                             |
-| G.P.%          |                                                                        |                      |                             |
-| Date Paid      |                                                                        |                      |                             |
-| Comm Pct       |                                                                        |                      |                             |
-| Comm Paid      |                                                                        |                      |                             |
-
-***
+2. Enter or select Warehouse code (defaults to all warehouses).
+3. Enter or select Salesperson code (defaults to all).
+4. Indicate if you want to use the salesperson on the customer file; leave blank to use the salesperson on the invoices.
+5. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+6. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
