@@ -9,26 +9,14 @@ long_description: Help documentation for OE71 - Sales Quotation in the 4GL syste
 
 # OE71 - Sales Quotation
 
-This function reprints/fax/emails a sales quotation. MTRs may be included with an emailed quote1.
+***
 
 1. Choose Sales Order Entry » Order Entry Reprints » Sales Quotation \[OE71].
-2. Enter or select the Document number for the quote you want to reprint (quote document numbers always begin with a “Q”).
-3. Indicate if you want to Include Pricing Factors.
+2. Enter or select the Warehouse code (defaults to the warehouse assigned to you).
+3. Enter or select the Document number for the quote you want to reprint (quote document numbers always begin with a “Q”).
+4. Indicate if you want to Include Pricing Factors.
+5. Select how/where the report should be output (press F4 to choose from a list). When you press Enter the report will generate.
 
-Configuration
+[![Open](https://4glsol.com/sm3-helpdocs/Skins/Default/Stylesheets/Images/transparent.gif)Configuration](https://4glsol.com/sm3-helpdocs/Content/Reports/rpt_oe71_Sales_Quotation.htm?Highlight=oe71)
 
-1 > Email MTRs with Quote
-
-## Output
-
-|                     |                                                                        |                      |                             |
-| ------------------- | ---------------------------------------------------------------------- | -------------------- | --------------------------- |
-| column heading      | needs description? (if yes, populate one of the next two columns only) | glossary description | report-specific description |
-| Ln                  |                                                                        |                      |                             |
-| Quantity            |                                                                        |                      |                             |
-| Product Description |                                                                        |                      |                             |
-| Pricing Qty         |                                                                        |                      |                             |
-| Price               |                                                                        |                      |                             |
-| Value               |                                                                        |                      |                             |
-
-***
+<sup>1</sup> SWTMNT > Email MTRs with Quote
