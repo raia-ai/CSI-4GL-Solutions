@@ -22,6 +22,7 @@ To attach a document to a record:
 
 Note that for Vendor Invoice Inquiry, to attach a document, click the button in the G column for the record that you want to attach the document to:
 
-It's possible to import multiple generic documents which can be attached to customers or vendors; please for assistance.
+It's possible to import multiple generic documents which can be attached to customers or vendors; please contact 4GL Customer Support for assistance.
 
 ***
+
