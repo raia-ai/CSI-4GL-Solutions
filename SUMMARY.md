@@ -415,7 +415,7 @@
   * [Kasto](system-help/rn-3.21_KA.md)
   * [Order Entry](system-help/rn-3.21_OE.md)
   * [Purchasing](system-help/rn-3.21_PO.md)
-  * [Portal](system-help/rn-3.21_Portal.md)
+  * [Portal 3.21](system-help/rn-3.21_Portal.md)
   * [Security](system-help/rn-3.21_SEC.md)
   * [Task Manager](system-help/rn-3.21_TM.md)
   * [Wireless Handheld](system-help/rn-3.21_WH.md)
