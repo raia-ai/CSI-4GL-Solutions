@@ -16,7 +16,10 @@ All report parameters lines will be duplicated.
 1. Choose General Ledger » GL Reports » Financial Report Writer » Create Duplicate Financial Report \[RG4].
 2. Enter or select the Source Report code, i.e. the original report you are duplicating.
 3. Enter a Destination Report number and Destination Report Title.
+4.  Press Enter to process the report.
 
-Report destination cannot already exist.
+
+
+Note - Report destination cannot already exist.
 
 ***

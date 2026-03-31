@@ -11,15 +11,18 @@ long_description: Help documentation for General Ledger Account Inquiry in the 4
 
 This function is used to inquire summaries (balances) or detail (transactions) information by GL accounts within a specific time period.
 
-1. Choose General Ledger » GL Inquiry » Account Inquiry \[GL64].
+1. Choose **General Ledger » GL Inquiry » Account Inquiry \[GL64].**
 2. Enter or select Warehouse code, select check box to for all.
-3. Enter or select Account Type, select check box for all.
-4. Enter or select Account No.
-5. Enter partial Account Name or leave blank for all.
+3. Enter or select the starting date Date From and ending date Date To for the report (defaults to today's date).
+4. Enter or select Account Type, select check box for all.
+5. Enter or select Account No.
+6. Enter partial Account Name or leave blank for all.
 
 ## What is the TOE?
 
-All data posted to the GL references a source code1 that identifies the Type of Entry; this appears in the inquiry as “TOE”.
+All data posted to the GL references a source code1 that identifies the Type of Entry; this appears in the inquiry as “TOE”.\
+\
+&#x20;![](<../.gitbook/assets/image (5).png>)
 
 The table below explains what the TOE is, and where you can view more information for the transaction (you can also view from GL inquiry by selecting the document): \[missing xrefs]
 
@@ -54,8 +57,8 @@ You could have a journal entry writing off an accrual:\
 
 You can view all document prefixes in Type of Entry Maintenance (MS31) \[xref] – in the Pfx column.
 
-Configuration
+**Configuration**
 
-1 Source Codes \[GL16]
+Source Codes \[GL16]
 
 ***
