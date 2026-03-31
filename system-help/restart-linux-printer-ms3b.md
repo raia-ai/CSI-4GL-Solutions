@@ -9,7 +9,7 @@ long_description: Help documentation for Restarting a Linux Printer in the 4GL s
 
 # Restarting a Linux Printer
 
-provides a utility to restart a Linux network printer and optionally to cancel all jobs in its print queue.
+SM3 provides a utility to restart a Linux network printer and optionally to cancel all jobs in its print queue.
 
 1. Choose Administration » Administration » Restart CUPS Printer \[MS3B].
 2. Press F4 to view all Linux printers on your network and their current status. Select the disabled printer that you want to restart.

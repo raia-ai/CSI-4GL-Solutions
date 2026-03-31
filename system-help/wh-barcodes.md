@@ -9,9 +9,9 @@ long_description: Help documentation for Common Barcode Sheets in the 4GL system
 
 # Common Barcode Sheets
 
-\[George sent me the source Word files Aug/22, I created the PDFs]
 
-Download and print these barcode sheets for quick access to the actions used in the function.
+
+TIP Download and print these barcode sheets for quick access to the actions used in the function.
 
 |                                   |                                   |
 | --------------------------------- | --------------------------------- |

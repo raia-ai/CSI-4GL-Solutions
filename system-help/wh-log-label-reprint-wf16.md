@@ -11,4 +11,6 @@ long_description: Help documentation for Log Label Reprint in the 4GL system.
 
 Print inventory labels.
 
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 ***

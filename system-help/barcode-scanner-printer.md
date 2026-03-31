@@ -30,7 +30,7 @@ Requires network connection to Customer’s network running MS Windows XP or hig
 
 ## USB Scanner
 
-\[so these are the requirements for the scanner, but this kind of scanner is optional and needed only for invoice confirmation scanning?]
+
 
 A USB Scanner that scans code 39 and has 1d scanning capabilities. Must be able to be programmed so that there is a line feed carriage return after the scan and the ability to override caps lock. Scanner can be used for invoice confirmation (optional).
 
@@ -38,6 +38,6 @@ A USB Scanner that scans code 39 and has 1d scanning capabilities. Must be able 
 
 The scanner can be from any manufacturer as long as it can scan images to PDF. To edit PDF images, we recommend using PaperPort or eCopy software.
 
-Some clients use Canon Imagewriters to combine their copying, scanning and printing requirements (option to scan to PDF).
+TIP Some clients use Canon Imagewriters to combine their copying, scanning and printing requirements (option to scan to PDF).
 
 ***

@@ -17,7 +17,7 @@ Holidays may or may not be the same as observed by the public: you may have comp
 2. Select the Warehouse that the schedule applies to.
 3. Enter the Date of the holiday, and a Description.
 
-When calculating shipping days and requested days, looks at this schedule as well as the “Order Shipping Date Lead Time in Days” switch (MS33>System) to ensure that the Requested Date on an order is skipping over weekend and holidays.
+When calculating shipping days and requested days, SM3 looks at this schedule as well as the “Order Shipping Date Lead Time in Days” switch (MS33>System) to ensure that the Requested Date on an order is skipping over weekend and holidays.
 
 For example:
 

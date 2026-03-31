@@ -11,11 +11,11 @@ long_description: Help documentation for Client and Server Requirements in the 4
 
 ## Supported Browsers
 
-For customers using the browser version of :
+For customers using the browser version of SM3: 4GL only supports Chrome and Edge. You can use another browser if you wish, but we will not address reported issues unless they exist in Chrome and/or Edge.
 
 ## Clients (Workstations)
 
-utilizes a Windows-based client (Pro IV) model to access the Linux server. Minimum required client operating system is Windows 10 or higher. Recommended specifications include:
+SM3 utilizes a Windows-based client (Pro IV) model to access the Linux server. Minimum required client operating system is Windows 10 or higher. Recommended specifications include:
 
 * 2.2 GHz (or faster) x86 processor
 * minimum of 1Gb of memory
@@ -28,7 +28,7 @@ Workstations must have an Ethernet card installed (on the motherboard or as a se
 
 ## Server
 
-has been designed to run on a Linux server platform with connected Windows clients. Red Hat® Enterprise Linux Server 5.5 is currently supported as the operating system for the Server.
+SM3 has been designed to run on a Linux server platform with connected Windows clients. Red Hat® Enterprise Linux Server 5.5 is currently supported as the operating system for the Server.
 
 All server hardware must be compatible with the Red Hat® Enterprise Linux Server 5.5 platform. Device drivers (in particular) must all be available for the chosen hardware implementation. In order to ensure this compatibility, 4GL Solutions has relied upon Dell® servers (although such use is not an absolute requirement). The Linux server will be connected to the internal company network.
 

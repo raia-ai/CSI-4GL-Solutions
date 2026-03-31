@@ -9,8 +9,6 @@ long_description: Help documentation for Restarting the License Server in the 4G
 
 # Restarting the License Server
 
-\[deprecated as of 3.15 - BG 38123]
-
 Sometimes the license usage number goes out of sync and licenses are being consumed “in error”. Restarting the license server releases these licenses without killing valid sessions.
 
 There are two ways to restart the server:
