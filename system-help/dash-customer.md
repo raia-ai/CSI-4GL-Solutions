@@ -18,10 +18,6 @@ long_description: Help documentation for Customer Dashboard Widgets in the 4GL s
 | Invoices                    |               |                                             |                                                                                                         | Customer AR Inquiry Sales Window                                                    |
 | Sales By Product Line       | IV, CM, DM    | INV, END, POS                               | IVHDR\_DOCUMENT\_DATE: "Month to Date": Current Month                                                   | Customer warehouse is blank. Inventory lines only. Sales within current fiscal year |
 | Sales By Previous 36 Months | IV, CM, DM    | INV, END, POS                               | Every Table and Chart in this section IVHDR\_DOCUMENT\_DATE: Range: (Current Month-36) to Current Month | Customer warehouse is blank. Inventory lines only                                   |
-|                             |               |                                             |                                                                                                         |                                                                                     |
-|                             |               |                                             |                                                                                                         |                                                                                     |
-| 2nd Tab - Open Quotes       | SQ            | OPN                                         |                                                                                                         | Customer warehouse is blank                                                         |
-| 2nd Tab - Open Orders       | SO            | PCK, PRA, PUR, APR, PBP, WEB, PCB, QCH, BKO |                                                                                                         | Customer territory is not '999' Customer warehouse is blank                         |
 
 ## Open Quotes, Orders & Invoices Tab
 
